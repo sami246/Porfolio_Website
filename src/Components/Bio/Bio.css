@@ -1,0 +1,40 @@
+.bioContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+.title {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 62px;
+    margin-bottom: 22px;
+    font-family: var(--font-secondary);
+}
+
+.titleHighlight {
+    color: var(--color-primary)
+}
+
+.bioBody {
+    color: var(--color-body);
+    text-align: left;
+    font-size: 18px;
+}
+
+.profileImage {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-image: url('https://via.placeholder.com/400x200');
+    /* background-image: url('https://media.licdn.com/dms/image/C4D03AQHGs3KAZdgKLQ/profile-displayphoto-shrink_800_800/0/1599842262516?e=1704931200&v=beta&t=jPPs_SMHC4SymmfoGin8tzokJ83cs62LIdhckvSe3RQ'); */
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin-bottom: 20px;
+    /* Adjust the margin as needed */
+}
