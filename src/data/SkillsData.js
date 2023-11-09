@@ -19,6 +19,8 @@ import googlePlayImage from '../assets/logos/google-playstore.svg'
 import youtubeImage from '../assets/logos/youtube.svg'
 import mysqlImage from '../assets/logos/mysql.svg'
 import djangoImage from '../assets/logos/django.svg'
+import androidStudioImage from '../assets/logos/android_studio.png'
+import xcodeImage from '../assets/logos/xcode.png'
 
 export const main_skills = [
     {
@@ -65,10 +67,6 @@ export const main_skills = [
 
 export const secondary_skills = [
     {
-        logo: photoshopImage,
-        description: 'Photoshop CC'
-    },
-    {
         logo: iosImage,
         description: 'Apple Connect Store'
     },
@@ -93,6 +91,10 @@ export const secondary_skills = [
         description: 'Wix'
     },
     {
+        logo: photoshopImage,
+        description: 'Photoshop CC'
+    },
+    {
         logo: phpImage,
         description: 'PHP'
     },
@@ -103,6 +105,14 @@ export const secondary_skills = [
     {
         logo: mysqlImage,
         description: 'mySQL'
+    },
+    {
+        logo: androidStudioImage,
+        description: 'Android Studio'
+    },
+    {
+        logo: xcodeImage,
+        description: 'xCode'
     },
 
 

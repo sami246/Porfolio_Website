@@ -1,6 +1,4 @@
 import React from 'react';
-import reactImage from '../../assets/logos/react.svg';
-import photoshopImage from '../../assets/logos/adobe-photoshop-cc.svg';
 import './Skills.css'
 import { main_skills, secondary_skills } from '../../data/SkillsData';
 

@@ -4,9 +4,6 @@ import pdf from '../../assets/Sami Rahman CV.pdf'
 
 export const Bio = () => {
     const onButtonClick = () => {
-        // using Java Script method to get PDF file
-        const pdfPath = '../../assets/Sami Rahman CV.pdf'; // Adjust the path based on your project structure
-
         fetch(pdf).then((response) => {
             response.blob().then((blob) => {
 
