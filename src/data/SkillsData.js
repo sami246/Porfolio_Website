@@ -21,6 +21,10 @@ import mysqlImage from '../assets/logos/mysql.svg'
 import djangoImage from '../assets/logos/django.svg'
 import androidStudioImage from '../assets/logos/android_studio.png'
 import xcodeImage from '../assets/logos/xcode.png'
+import unityImage from '../assets/logos/unity.svg'
+import googleCloudImage from '../assets/logos/google_cloud.svg'
+import gitHubImage from '../assets/logos/github.png'
+
 
 export const main_skills = [
     {
@@ -103,17 +107,32 @@ export const secondary_skills = [
         description: 'Django'
     },
     {
+        logo: gitHubImage,
+        description: 'Github'
+    },
+
+    {
         logo: mysqlImage,
         description: 'mySQL'
+    },
+
+
+    {
+        logo: xcodeImage,
+        description: 'xCode'
+    },
+    {
+        logo: unityImage,
+        description: 'Unity'
     },
     {
         logo: androidStudioImage,
         description: 'Android Studio'
     },
+
+
     {
-        logo: xcodeImage,
-        description: 'xCode'
+        logo: googleCloudImage,
+        description: 'Google Cloud Platform'
     },
-
-
 ]

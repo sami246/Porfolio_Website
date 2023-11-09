@@ -19,7 +19,7 @@
 }
 
 .rightContainer {
-  flex: 1.25;
+  flex: 1.2;
   overflow-y: auto;
   padding: 20px;
   /* Hide the scrollbar and make it transparent */
