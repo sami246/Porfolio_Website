@@ -1,0 +1,67 @@
+.skillsBox {
+    width: 60px;
+    height: 60px;
+    align-items: center;
+    border-radius: 6px;
+    background: var(--background-color-1);
+    box-shadow: var(--shadow-soft);
+    padding: 20px;
+    position: relative;
+
+}
+
+.skillsBoxSmall {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    background: var(--background-color-1);
+    box-shadow: var(--shadow-soft);
+    padding: 15px;
+    position: relative;
+}
+
+.skillsContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 25px;
+}
+
+.img_description {
+    position: absolute;
+
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    text-transform: uppercase;
+    text-align: center;
+    align-content: center;
+    border-radius: 6px;
+    background: var(--background-color-1);
+    padding: 12px;
+    padding-top: 30%;
+    font-family: var(--font-secondary);
+    font-weight: 600;
+    font-size: 0.6rem;
+
+    /* transition effect. not necessary */
+    transition: opacity .2s, visibility .2s;
+}
+
+.skillsBox:hover .img_description {
+    visibility: visible;
+    opacity: 0.9;
+}
+
+.skillsBoxSmall:hover .img_description {
+    visibility: visible;
+    opacity: 0.9;
+}

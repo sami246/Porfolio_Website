@@ -21,6 +21,8 @@ body {
   --shadow-1: 10px 10px 19px #1e2024,
     -7px -7px 15px #2c3236;
   --shadow-2: inset 21px 21px 19px #181a1d, inset -21px -21px 19px #202225;
+  --shadow-soft: 10px 10px 10px #1e2024,
+    -4px -5px 17px #2c3236;
   --inner-shadow: 1px 4px 2px -3px rgba(0, 0, 0, 0.7) inset, -1px -3px 3px -2px rgba(255, 255, 255, 0.2) inset;
   --shadow-white-3: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
   --gradient-box-w: linear-gradient(145deg, #e2e8ec, #ffffff);

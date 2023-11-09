@@ -74,11 +74,11 @@
 }
 
 #boxContainer {
-  box-shadow: var(--shadow-1);
+  box-shadow: var(--shadow-soft);
   border-radius: 6px;
   margin-bottom: 40px;
-  height: 15vh;
-  padding: 17px 30px;
+  /* height: 15vh; */
+  padding: 20px 40px;
 }
 
 .boxHeading {
