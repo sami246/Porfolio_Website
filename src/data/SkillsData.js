@@ -29,42 +29,51 @@ import gitHubImage from '../assets/logos/github.png'
 export const main_skills = [
     {
         logo: javascriptImage,
-        description: 'Javascript JS'
+        description: 'Javascript JS',
+        color: 'yellow'
     },
 
     {
         logo: htmlImage,
-        description: 'HTML 5'
+        description: 'HTML 5',
+        color: 'orange'
     },
     {
         logo: reactImage,
-        description: 'React JS'
+        description: 'React JS',
+        color: 'blue'
     },
     {
         logo: firebaseImage,
-        description: 'Firebase'
+        description: 'Firebase',
+        color: 'yellow'
     },
     {
         logo: supabaseImage,
-        description: 'Supabase'
+        description: 'Supabase',
+        color: 'green'
     },
 
     {
         logo: pythonImage,
-        description: 'Python'
+        description: 'Python',
+        color: 'yellow'
     },
     {
         logo: css3Image,
-        description: 'CSS 3'
+        description: 'CSS 3',
+        color: 'blue'
 
     },
     {
         logo: expoImage,
-        description: 'Expo'
+        description: 'Expo',
+        color: 'blue'
     },
     {
         logo: reactNativeImage,
-        description: 'React Native'
+        description: 'React Native',
+        color: 'blue'
     },
 
 ]

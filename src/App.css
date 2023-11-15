@@ -79,15 +79,22 @@
   margin-bottom: 40px;
   /* height: 15vh; */
   padding: 20px 40px;
+  margin-right: 2vw;
 }
 
 .boxHeading {
   position: relative;
-  margin-bottom: 35px;
+  margin-bottom: 25px;
   font-size: 30px;
   text-align: left;
   font-weight: var(--s-bold);
   text-shadow: var(--shadow-1);
+}
+
+.boxText {
+  font-size: 14px;
+  line-height: 22px;
+  color: rgb(231, 231, 231)
 }
 
 .boxHeading::after {

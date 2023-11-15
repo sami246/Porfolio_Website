@@ -14,7 +14,9 @@ export const Skills = () => {
             <h4>Primary Skills</h4>
             <div className='skillsContainer'>
                 {main_skills?.map((item, index) => (
-                    <div className='skillsBox'>
+                    <div className='skillsBox'
+                    // style={{ boxShadow: `8px 8px 11px ${item.color}, -4px -5px 17px #2c3236` }}
+                    >
                         <div className='img_description'>{item.description} </div>
                         <img key={index} src={item.logo} alt={item.description} width='100%' height='100%' />
                     </div>
