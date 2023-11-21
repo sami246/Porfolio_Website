@@ -1,0 +1,13 @@
+.logoBox {
+    width: 55px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    background: var(--background-color-1);
+    box-shadow: var(--shadow-1);
+    position: relative;
+    margin-bottom: 15px;
+    overflow: hidden;
+}

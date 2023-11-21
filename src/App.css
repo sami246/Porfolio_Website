@@ -94,10 +94,61 @@
 .boxText {
   font-size: 14px;
   line-height: 22px;
-  color: rgb(231, 231, 231)
+  color: var(--color-body)
 }
 
 .boxHeading::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 1px;
+  background: #141618;
+  bottom: -2px;
+  left: 0;
+}
+
+.ExperienceHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: 600;
+  width: 100%;
+  margin-bottom: 8px;
+  color: var(--color-info);
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+.ExperienceTitle {
+  /* text-decoration: none; */
+  color: var(--color-info);
+
+}
+
+.ExperienceTime {
+  /* text-decoration: none; */
+  color: rgb(233, 233, 233);
+  background-color: #464646;
+  padding: 1px 8px;
+  font-size: 12px;
+  font-weight: 400;
+  border-radius: 15px;
+  box-shadow: var(--shadow-black);
+  ;
+
+}
+
+.ExperienceBody {
+
+  margin-bottom: 15px;
+}
+
+.ExperienceBody::after {
   position: absolute;
   content: "";
   width: 100%;

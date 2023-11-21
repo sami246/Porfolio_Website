@@ -15,10 +15,10 @@ function App() {
 
       </div>
       <div className='rightContainer'>
-        <About />
         <Skills />
         <Experience />
         <Projects />
+        <About />
         <Testimonial />
         <Contact />
       </div>

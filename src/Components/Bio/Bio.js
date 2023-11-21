@@ -31,10 +31,13 @@ export const Bio = () => {
                 </span>
             </div>
             <div className='bioBody'>
-                <div>I am a Full-Stack Developer specialising in Front-End based in England. </div>
+                <div>I am a Full-Stack Developer specialising in Front-End, based in England. </div>
                 <div>I have experience in a wide array of technologies and frameworks and am eager to learn more and take on exciting opportunities.</div>
             </div>
-            <button className='button' onClick={() => onButtonClick()}>Download My CV</button>
+            <div style={{ flexDirection: 'row', display: 'flex' }}>
+                <button className='button' onClick={() => onButtonClick()}>Download My CV</button>
+                <button className='button' onClick={() => document.querySelector(`#AboutMe`).scrollIntoView()}>About Me</button>
+            </div>
 
         </div>
     )
