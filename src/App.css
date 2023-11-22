@@ -158,7 +158,7 @@ a:hover {
   left: 0;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1000px) {
   .App {
     flex-direction: column;
     height: 100%;

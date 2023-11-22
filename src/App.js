@@ -1,28 +1,13 @@
+import { useContext } from 'react';
 import './App.css';
-import { About } from './Components/About/About';
-import { Bio } from './Components/Bio/Bio';
-import { Contact } from './Components/Contact/Contact';
-import { Experience } from './Components/Experience/Experience';
-import { Projects } from './Components/Projects/Projects';
-import { Skills } from './Components/Skills/Skills';
-import { Testimonial } from './Components/Testimonial/Testimonial';
+import { AppProvider } from './contexts/AppContext';
+import { MainApp } from './MainApp';
 
 function App() {
   return (
-    <div className="App">
-      <div className='leftContainer'>
-        <Bio />
-
-      </div>
-      <div className='rightContainer'>
-        <Skills />
-        <Experience />
-        <Projects />
-        <About />
-        <Testimonial />
-        <Contact />
-      </div>
-    </div>
+    <AppProvider>
+      <MainApp />
+    </AppProvider>
   );
 }
 
