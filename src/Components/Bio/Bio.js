@@ -3,21 +3,24 @@ import './Bio.css'
 import pdf from '../../assets/Sami Rahman CV.pdf'
 
 export const Bio = () => {
+
     const onButtonClick = () => {
-        fetch(pdf).then((response) => {
-            response.blob().then((blob) => {
+        const shouldDownload = window.confirm('Do you want to download the CV?');
 
-                // Creating new object of PDF file
-                const fileURL =
-                    window.URL.createObjectURL(blob);
+        if (shouldDownload) {
+            fetch(pdf).then((response) => {
+                response.blob().then((blob) => {
+                    // Creating a new object of the PDF file
+                    const fileURL = window.URL.createObjectURL(blob);
 
-                // Setting various property values
-                let alink = document.createElement("a");
-                alink.href = fileURL;
-                alink.download = "Sami Rahman CV.pdf";
-                alink.click();
+                    // Setting various property values
+                    let alink = document.createElement('a');
+                    alink.href = fileURL;
+                    alink.download = 'Sami Rahman CV.pdf';
+                    alink.click();
+                });
             });
-        });
+        }
     };
 
     return (
