@@ -3,12 +3,14 @@ import React, { createContext, useState } from 'react';
 export const AppContext = createContext();
 
 export const AppProvider = ({ children }) => {
-    const [imageToShow, setImageToShow] = useState(null)
+    const [imageToShowData, setImageToShowData] = useState(null)
+    const [imageToShowIndex, setImageToShowIndex] = useState(null)
 
     return (
         <AppContext.Provider
             value={{
-                imageToShow, setImageToShow
+                imageToShowData, setImageToShowData,
+                imageToShowIndex, setImageToShowIndex
             }}>
             {children}
         </AppContext.Provider>

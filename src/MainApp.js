@@ -7,42 +7,61 @@ import { Projects } from './Components/Projects/Projects';
 import { Skills } from './Components/Skills/Skills';
 import { Testimonial } from './Components/Testimonial/Testimonial';
 import { AppContext } from './contexts/AppContext';
+import { HiChevronLeft, HiChevronRight } from "react-icons/hi";
 
 export const MainApp = () => {
-    const { imageToShow, setImageToShow } = useContext(AppContext);
+    const { imageToShowData, imageToShowIndex, setImageToShowData, setImageToShowIndex } = useContext(AppContext);
 
     const handleCloseModal = (e) => {
         // Check if the click target is the background (modal) and not the image
         if (e.target === e.currentTarget) {
-            setImageToShow(null);
+            setImageToShowIndex(null)
+            setImageToShowData(null);
         }
     };
 
     return (
         <>
-            {imageToShow && (
+            {imageToShowData && (
                 <div
                     style={{
                         backgroundColor: 'rgba(0, 0, 0, 0.7)',
                         height: '100%',
                         width: '100%',
-                        zIndex: 1000,
+                        zIndex: 100,
                         position: 'fixed',
                         top: 0,
                         left: 0,
                         display: 'flex',
                         alignItems: 'center',
-                        justifyContent: 'center',
+                        justifyContent: 'space-between',
                     }}
                     onClick={handleCloseModal}
                 >
+                    <HiChevronLeft onClick={() => setImageToShowIndex((prev) => {
+                        if (prev === 0) {
+                            return imageToShowData.length - 1
+                        }
+                        else {
+                            return prev - 1
+                        }
+                    })} className='image-arrow' style={{}} size={160} />
                     {/* You can replace this image element with the one from your chosen zoom library */}
                     <img
-                        src={imageToShow}
-                        alt="Selected Image"
-                        style={{ maxWidth: '80%', maxHeight: '80%' }}
+                        src={imageToShowData[imageToShowIndex].src}
+                        alt="Selected"
+                        unselectable='true'
+                        style={{ maxWidth: '80%', maxHeight: '80%', borderColor: 'red', borderWidth: 2 }}
                         onClick={(e) => e.stopPropagation()} // Prevent the click event from reaching the modal background
                     />
+                    <HiChevronRight onClick={() => setImageToShowIndex((prev) => {
+                        if (prev === imageToShowData.length - 1) {
+                            return 0
+                        }
+                        else {
+                            return prev + 1
+                        }
+                    })} className='image-arrow' style={{}} size={160} />
                 </div>
             )}
             <div className="App">

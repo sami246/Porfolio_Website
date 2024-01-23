@@ -7,21 +7,24 @@ import { AppContext } from '../../../contexts/AppContext';
 const handleDragStart = (e) => e.preventDefault();
 
 const ImageCarousel = ({ media }) => {
-    const { setImageToShow } = useContext(AppContext)
+    const { setImageToShowData, setImageToShowIndex } = useContext(AppContext)
 
     try {
         if (media?.length !== 0) {
             return (
-                <div style={{ width: '80%', margin: '10px auto', display: 'flex', justifyContent: 'center' }}>
+                <div style={{ width: '80%', margin: '10px auto', display: 'flex', justifyContent: 'center', }}>
                     <AliceCarousel
                         infinite
                         controlsStrategy='responsive'
                         mouseTracking
-                        items={media?.map((mediaData) => {
+                        items={media?.map((mediaData, index) => {
                             console.log(mediaData);
                             if (mediaData.type === 'image') {
                                 return (
-                                    <div className='carouselItem' onClick={() => { setImageToShow(mediaData.src) }}>
+                                    <div className='carouselItem' onClick={() => {
+                                        setImageToShowData(media)
+                                        setImageToShowIndex(index)
+                                    }}>
                                         <img key={mediaData.src.toString()} alt={mediaData.src.toString()} className='projectImage' src={mediaData.src} onDragStart={handleDragStart} role="figure" />
                                     </div>
                                 );
@@ -43,6 +46,7 @@ const ImageCarousel = ({ media }) => {
                                     </div>
                                 );
                             }
+                            return null
                         })}
                     />
                 </div>

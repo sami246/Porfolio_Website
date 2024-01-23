@@ -11,3 +11,11 @@
     margin-bottom: 15px;
     overflow: hidden;
 }
+
+.custom-list {
+    list-style-type: square;
+    /* Use disc as the list item marker */
+    padding-left: 20px;
+    /* Adjust the left padding as needed */
+    font-size: 15px;
+}

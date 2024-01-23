@@ -174,3 +174,15 @@ a:hover {
     overflow-y: inherit;
   }
 }
+
+.image-arrow {
+  position: 'absolute';
+  height: 100vh;
+  width: 200px;
+  resize: none;
+  cursor: pointer;
+}
+
+.image-arrow:hover {
+  background-color: rgba(126, 126, 126, 0.548);
+}

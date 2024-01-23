@@ -14,13 +14,14 @@ import FamilyNoticeImage5 from '../assets/project_images/Family Notice 5.png'
 
 export const ProjectData = [
     {
-        title: 'How Old?',
-        technologies: 'React Native, Expo, Supabase',
+        title: 'Awda',
+        technologies: 'React Native, Expo, Supabase, Figma',
         link: null,
-        startMonth: 'OCT 2023',
+        startMonth: 'DEC 2023',
         endMonth: 'CURRENT',
         bulletPoints: [
-            'Multi-platform Mobile Application to keep track of peoples birthdays and ages. Grouping, sorting and notifications features used.'
+            'Multi-platform Mobile Application to help Muslim Reverts learn the basics of Islam all in one place',
+            'Main Focus of this was front end implementation working with other developers to create the whole application'
         ],
         media: [
 
