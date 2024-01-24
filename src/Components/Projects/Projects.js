@@ -26,12 +26,17 @@ export const Projects = () => {
                             <div className='ExperienceTime'>{item.startMonth}{item.endMonth === item.startMonth ? null : " - " + item.endMonth}</div>
                         </div>
                         <div className='ExperienceBody'>
-                            {item.bulletPoints?.map((bulletPoint, index) => (
+                            <ul className='custom-list'>
+                                {item?.bulletPoints?.map((bulletPoint, index) => (
+                                    <li >{bulletPoint}</li>
+                                ))}
+                            </ul>
+                            {/* {item.bulletPoints?.map((bulletPoint, index) => (
                                 <div key={'bulletpoints' + Math.random()}>
                                     <span>● {bulletPoint}</span>
                                     {index === item.bulletPoints?.length - 1 ? null : <br></br>}
                                 </div>
-                            ))}
+                            ))} */}
                         </div>
                         <ImageCarousel media={item.media} />
                         {/* {item.images?.map((image) => (

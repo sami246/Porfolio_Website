@@ -1,10 +1,12 @@
 import featureImg from '../assets/experience_images/foodii/Feature Graphic BIG-min.jpg'
-import foodiPhone1 from '../assets/experience_images/foodii/Phone Screenshots - 1.jpg'
-import foodiPhone2 from '../assets/experience_images/foodii/Phone Screenshots - 2.jpg'
-import foodiPhone3 from '../assets/experience_images/foodii/Phone Screenshots - 3.jpg'
-import foodiPhone4 from '../assets/experience_images/foodii/Phone Screenshots - 4.jpg'
-import foodiPhone5 from '../assets/experience_images/foodii/Phone Screenshots - 5.jpg'
-import foodiPhone6 from '../assets/experience_images/foodii/Phone Screenshots - 6.jpg'
+// import foodiPhone1 from '../assets/experience_images/foodii/Phone Screenshots - 1.jpg'
+// import foodiPhone2 from '../assets/experience_images/foodii/Phone Screenshots - 2.jpg'
+// import foodiPhone3 from '../assets/experience_images/foodii/Phone Screenshots - 3.jpg'
+// import foodiPhone4 from '../assets/experience_images/foodii/Phone Screenshots - 4.jpg'
+// import foodiPhone5 from '../assets/experience_images/foodii/Phone Screenshots - 5.jpg'
+// import foodiPhone6 from '../assets/experience_images/foodii/Phone Screenshots - 6.jpg'
+import foodiCollage1 from '../assets/experience_images/foodii/phone screenshots collage 1.png'
+import foodiCollage2 from '../assets/experience_images/foodii/phone screenshots collage 2.png'
 
 
 import foodiLogo from '../assets/logos/foodii.png'
@@ -35,40 +37,52 @@ export const ExperienceData = [
             },
             {
                 type: 'image',
-                src: foodiPhone1,
+                src: foodiCollage1,
                 link: 'https://foodii.co.uk',
                 description: ''
             },
             {
                 type: 'image',
-                src: foodiPhone2,
+                src: foodiCollage2,
                 link: 'https://foodii.co.uk',
                 description: ''
             },
-            {
-                type: 'image',
-                src: foodiPhone3,
-                link: 'https://foodii.co.uk',
-                description: ''
-            },
-            {
-                type: 'image',
-                src: foodiPhone4,
-                link: 'https://foodii.co.uk',
-                description: ''
-            },
-            {
-                type: 'image',
-                src: foodiPhone5,
-                link: 'https://foodii.co.uk',
-                description: ''
-            },
-            {
-                type: 'image',
-                src: foodiPhone6,
-                link: 'https://foodii.co.uk',
-                description: ''
-            },
+            // {
+            //     type: 'image',
+            //     src: foodiPhone1,
+            //     link: 'https://foodii.co.uk',
+            //     description: ''
+            // },
+            // {
+            //     type: 'image',
+            //     src: foodiPhone2,
+            //     link: 'https://foodii.co.uk',
+            //     description: ''
+            // },
+            // {
+            //     type: 'image',
+            //     src: foodiPhone3,
+            //     link: 'https://foodii.co.uk',
+            //     description: ''
+            // },
+            // {
+            //     type: 'image',
+            //     src: foodiPhone4,
+            //     link: 'https://foodii.co.uk',
+            //     description: ''
+            // },
+            // {
+            //     type: 'image',
+            //     src: foodiPhone5,
+            //     link: 'https://foodii.co.uk',
+            //     description: ''
+            // },
+            // {
+            //     type: 'image',
+            //     src: foodiPhone6,
+            //     link: 'https://foodii.co.uk',
+            //     description: ''
+            // },
         ]
     },
     {
