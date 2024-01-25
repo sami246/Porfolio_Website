@@ -7,6 +7,7 @@ import featureImg from '../assets/experience_images/foodii/Feature Graphic BIG-m
 // import foodiPhone6 from '../assets/experience_images/foodii/Phone Screenshots - 6.jpg'
 import foodiCollage1 from '../assets/experience_images/foodii/phone screenshots collage 1.png'
 import foodiCollage2 from '../assets/experience_images/foodii/phone screenshots collage 2.png'
+import foodiWebsite1 from '../assets/experience_images/foodii/Website 1.png'
 
 
 import foodiLogo from '../assets/logos/foodii.png'
@@ -31,7 +32,7 @@ export const ExperienceData = [
         media: [
             {
                 type: 'image',
-                src: featureImg,
+                src: foodiWebsite1,
                 link: 'https://foodii.co.uk',
                 description: ''
             },

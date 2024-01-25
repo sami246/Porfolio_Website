@@ -1,6 +1,6 @@
 .logoBox {
-    width: 55px;
-    height: 55px;
+    width: 75px;
+    height: 75px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -8,7 +8,6 @@
     background: var(--background-color-1);
     box-shadow: var(--shadow-1);
     position: relative;
-    margin-bottom: 15px;
     overflow: hidden;
 }
 
@@ -18,4 +17,26 @@
     padding-left: 20px;
     /* Adjust the left padding as needed */
     font-size: 15px;
+}
+
+.logo-and-title {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.title-text {
+    /* text-decoration: none; */
+    color: var(--color-info);
+    text-align: left;
+    font-size: var(--font-size-b2);
+}
+
+.technologies-text {
+    text-align: left;
+    font-size: var(--font-size-b1);
+    margin-top: 5px;
+    margin-left: 15px;
+    font-weight: 300;
+    color: #fff;
 }

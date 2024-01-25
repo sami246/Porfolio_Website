@@ -16,12 +16,19 @@ export const Experience = () => {
             <div className='boxText'>
                 {ExperienceData.map((item, index) =>
                     <>
-                        <a className='logoBox' href={item.link} target="_blank" rel="noreferrer">
-                            <div className='img_description'>{item.company}</div>
-                            <img src={item.logoSrc} alt={`${item.company} Logo`} width='100%' height='100%' />
-                        </a>
+
                         <div className='ExperienceHeader'>
-                            <a href={item.link} className='ExperienceTitle' target="_blank" rel="noreferrer">{item.company} - {item.position} | {item.technologies}</a>
+                            <div className='logo-and-title'>
+                                <a className='logoBox' href={item.link} target="_blank" rel="noreferrer">
+                                    <div className='img_description'>{item.company}</div>
+                                    <img src={item.logoSrc} alt={`${item.company} Logo`} width='100%' height='100%' />
+                                </a>
+                                <div style={{ gap: 10 }}>
+                                    <a href={item.link} className='title-text' target="_blank" rel="noreferrer">{item.company} - {item.position} <br></br> </a>
+                                    <div className='technologies-text'>{item.technologies}</div>
+                                </div>
+
+                            </div>
                             <div className='ExperienceTime'>{item.startMonth} - {item.endMonth}</div>
                         </div>
                         <ul className='custom-list'>
