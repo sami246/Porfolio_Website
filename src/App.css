@@ -134,12 +134,13 @@ a:hover {
   /* text-decoration: none; */
   color: rgb(233, 233, 233);
   background-color: #464646;
+  height: 20px;
+  line-height: 20px;
   padding: 1px 8px;
   font-size: 12px;
   font-weight: 400;
   border-radius: 15px;
   box-shadow: var(--shadow-black);
-  ;
 
 }
 

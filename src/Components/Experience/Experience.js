@@ -3,6 +3,7 @@ import './Experience.css'
 import { motion } from 'framer-motion'
 import { ExperienceData } from '../../data/ExperienceData'
 import ImageCarousel from '../SmallComponents/ImageCarousel/ImageCarousel'
+import HighlightText from '../SmallComponents/HighlightText/HighlightText'
 
 export const Experience = () => {
     return (
@@ -25,7 +26,10 @@ export const Experience = () => {
                         </div>
                         <ul className='custom-list'>
                             {item?.bulletPoints?.map((bulletPoint, index) => (
-                                <li >{bulletPoint}</li>
+                                <>
+                                    <li ><HighlightText text={bulletPoint} /></li>
+
+                                </>
                             ))}
                         </ul>
                         <ImageCarousel media={item.media} />

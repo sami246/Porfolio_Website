@@ -3,6 +3,7 @@ import { motion } from 'framer-motion'
 import './Projects.css'
 import { ProjectData } from '../../data/ProjectData'
 import ImageCarousel from '../SmallComponents/ImageCarousel/ImageCarousel'
+import HighlightText from '../SmallComponents/HighlightText/HighlightText'
 
 export const Projects = () => {
     return (
@@ -28,7 +29,7 @@ export const Projects = () => {
                         <div className='ExperienceBody'>
                             <ul className='custom-list'>
                                 {item?.bulletPoints?.map((bulletPoint, index) => (
-                                    <li >{bulletPoint}</li>
+                                    <li ><HighlightText text={bulletPoint} /></li>
                                 ))}
                             </ul>
                             {/* {item.bulletPoints?.map((bulletPoint, index) => (

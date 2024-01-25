@@ -26,6 +26,7 @@
 
 .animation {
     height: 60px;
+    line-height: 60px;
     overflow: hidden;
     margin-left: 1rem;
 }
