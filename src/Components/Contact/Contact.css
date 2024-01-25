@@ -1,0 +1,21 @@
+.intro {
+    color: var(--color-body);
+}
+
+.intro span {
+    font-size: 0.8rem;
+}
+
+.contact-list {
+    color: var(--color-body);
+    font-weight: 200;
+}
+
+.contact-list li a {
+    color: var(--color-info);
+}
+
+.contact-list li span {
+    color: white;
+    font-weight: 600;
+}

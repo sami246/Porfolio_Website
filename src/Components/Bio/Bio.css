@@ -32,8 +32,8 @@
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    background-image: url('https://via.placeholder.com/400x200');
-    /* background-image: url('https://media.licdn.com/dms/image/C4D03AQHGs3KAZdgKLQ/profile-displayphoto-shrink_800_800/0/1599842262516?e=1704931200&v=beta&t=jPPs_SMHC4SymmfoGin8tzokJ83cs62LIdhckvSe3RQ'); */
+    /* background-image: url('https://via.placeholder.com/400x200'); */
+    background-image: url('../../assets/Grad Pic 1.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
