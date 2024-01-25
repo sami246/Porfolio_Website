@@ -4,16 +4,23 @@
     text-shadow: 0 0 7px rgba(255, 255, 255, .3), 0 0 3px rgba(255, 255, 255, .3);
     font-family: 'Roboto';
     color: #e5e5e5;
-    font-size: 1.55vw;
+    font-size: max(1.85rem, 2vw);
     text-transform: uppercase;
+    margin-bottom: 30px;
+
+}
+
+.spinner-container {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
 }
 
 @media only screen and (max-width: 1000px) {
     .intro-spinner-container {
-        font-size: 1.8rem;
+        font-size: 2.3rem;
     }
 }
 
@@ -25,9 +32,12 @@
 
 .animation>div>div {
     padding: 0.25rem 0.75rem;
-    height: 2.81rem;
-    margin-bottom: 2.81rem;
+    margin-bottom: 50px;
     display: inline-block;
+}
+
+.box {
+    height: 50px;
 }
 
 .animation div:first-child {
@@ -43,7 +53,8 @@
 }
 
 .third div {
-    background-color: #c10528;
+    /* background-color: #c10528; */
+    background-color: #169e04;
 }
 
 @keyframes text-animation {
@@ -56,27 +67,27 @@
     }
 
     20% {
-        margin-top: -5.62rem;
+        margin-top: -100px;
     }
 
     30% {
-        margin-top: -5.62rem;
+        margin-top: -100px;
     }
 
     40% {
-        margin-top: -11.24rem;
+        margin-top: -200px;
     }
 
     60% {
-        margin-top: -11.24rem;
+        margin-top: -200px;
     }
 
     70% {
-        margin-top: -5.62rem;
+        margin-top: -100px;
     }
 
     80% {
-        margin-top: -5.62rem;
+        margin-top: -100px;
     }
 
     90% {
