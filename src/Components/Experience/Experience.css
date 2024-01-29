@@ -1,6 +1,6 @@
 .logoBox {
-    width: 75px;
-    height: 75px;
+    max-width: 75px;
+    aspect-ratio: 1;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -16,7 +16,7 @@
     /* Use disc as the list item marker */
     padding-left: 20px;
     /* Adjust the left padding as needed */
-    font-size: 15px;
+    font-size: clamp(12px, 2vw, 15px)
 }
 
 .logo-and-title {
@@ -29,14 +29,15 @@
     /* text-decoration: none; */
     color: var(--color-info);
     text-align: left;
-    font-size: var(--font-size-b2);
+    font-size: clamp(18px, 3vw, 21px);
 }
 
 .technologies-text {
     text-align: left;
-    font-size: var(--font-size-b1);
+    font-size: clamp(15px, 3vw, 18px);
     margin-top: 5px;
-    margin-left: 15px;
+    margin-left: clamp(1px, 3vw, 15px);
     font-weight: 300;
     color: #fff;
+    text-wrap: balance;
 }

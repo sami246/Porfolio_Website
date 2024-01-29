@@ -1,5 +1,6 @@
 .projectImage {
     width: 100%;
+    aspect-ratio: 16 / 9;
     max-height: 380px;
     object-fit: cover;
     border-radius: 10px;
@@ -10,5 +11,5 @@
     /* Use disc as the list item marker */
     padding-left: 20px;
     /* Adjust the left padding as needed */
-    font-size: 15px;
+    font-size: clamp(12px, 2vw, 15px)
 }

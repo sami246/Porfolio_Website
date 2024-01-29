@@ -1,0 +1,84 @@
+.slide-container {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(159deg, rgb(42, 42, 53) 0%, rgb(41, 41, 56) 100%);
+    padding: 0.8rem 1.7rem 1.7rem 1.7rem;
+    margin: 0.2rem 0.5rem;
+    height: 300px;
+    justify-content: space-between;
+    /* Set height to 100% to occupy the entire height of the parent */
+    border-radius: 10px;
+    user-select: text;
+}
+
+.slide-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.slide-header .quote {
+    font-size: 5rem;
+    color: #1BA2DB;
+}
+
+.slide-header .star {
+    color: #ffcd3c;
+    font-size: 2rem;
+}
+
+.slide-body {
+    font-size: clamp(0.75rem, 2vw, 1.1rem);
+    margin-bottom: auto;
+    color: var(--color-lightn);
+    /* overflow: auto; */
+    /* or overflow: scroll; */
+}
+
+.slide-footer {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.slide-footer img {
+    width: clamp(3.5rem, 2vw, 5rem);
+    height: clamp(3.5rem, 2vw, 5rem);
+    aspect-ratio: 1;
+    border-radius: 50px;
+    object-fit: cover;
+}
+
+.company_image {
+    height: clamp(3rem, 5vw, 4.5rem);
+    object-position: center;
+    object-fit: contain;
+    /* background-color: red; */
+    margin-bottom: 20px;
+}
+
+.no-image {
+    width: clamp(3.5rem, 2vw, 5rem);
+    height: clamp(3.5rem, 2vw, 5rem);
+    aspect-ratio: 1;
+    border-radius: 50%;
+    font-size: 2rem;
+    text-align: center;
+    line-height: 4rem;
+    /* Adjust to match the actual height of the text */
+    background-color: #1BA2DB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.slide-footer h1 {
+    font-size: clamp(0.9rem, 2vw, 1.2rem);
+    font-weight: 700;
+}
+
+.slide-footer p {
+    font-size: clamp(0.7rem, 2vw, 1rem);
+    color: var(--color-body)
+}

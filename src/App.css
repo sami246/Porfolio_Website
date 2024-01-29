@@ -94,7 +94,7 @@
 .boxText {
   font-size: 14px;
   line-height: 22px;
-  color: var(--color-body)
+  color: var(--color-lightn)
 }
 
 .boxHeading::after {
