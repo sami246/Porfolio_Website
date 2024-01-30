@@ -47,15 +47,15 @@
 .splide__arrows {
     position: absolute;
     right: 0.7rem;
-    bottom: -3.7rem;
+    bottom: -4.7rem;
 }
 
 .splide__arrows button {
+    margin: 0;
     background-color: transparent;
-    margin-left: 0.5rem;
     font-weight: 900;
     border: none;
     color: #1BA2DB;
     cursor: pointer;
-    font-size: 2.3rem;
+    font-size: clamp(2.5rem, 5vw, 3rem);
 }

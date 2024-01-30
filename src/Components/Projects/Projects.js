@@ -29,7 +29,7 @@ export const Projects = () => {
                         <div className='ExperienceBody'>
                             <ul className='custom-list'>
                                 {item?.bulletPoints?.map((bulletPoint, index) => (
-                                    <li ><HighlightText text={bulletPoint} /></li>
+                                    <li key={bulletPoint + index}><HighlightText text={bulletPoint} /></li>
                                 ))}
                             </ul>
                             {/* {item.bulletPoints?.map((bulletPoint, index) => (

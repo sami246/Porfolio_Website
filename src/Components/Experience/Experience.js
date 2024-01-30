@@ -15,8 +15,7 @@ export const Experience = () => {
             <header className='boxHeading'>Technical Experience</header>
             <div className='boxText'>
                 {ExperienceData.map((item, index) =>
-                    <>
-
+                    <div key={item.company}>
                         <div className='ExperienceHeader'>
                             <div className='logo-and-title'>
                                 <a className='logoBox' href={item.link} target="_blank" rel="noreferrer">
@@ -33,15 +32,12 @@ export const Experience = () => {
                         </div>
                         <ul className='custom-list'>
                             {item?.bulletPoints?.map((bulletPoint, index) => (
-                                <>
-                                    <li ><HighlightText text={bulletPoint} /></li>
-
-                                </>
+                                <li key={bulletPoint + index}><HighlightText text={bulletPoint} /></li>
                             ))}
                         </ul>
                         <ImageCarousel media={item.media} />
                         {index !== ExperienceData.length - 1 && <br></br>}
-                    </>
+                    </div>
                 )}
             </div>
         </motion.div>

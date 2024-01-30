@@ -1,30 +1,21 @@
-.video_wrapper {
+.mediaWrapper {
     position: relative;
-    padding-bottom: 56.25%;
-    /* 16:9, for an aspect ratio of 1:1 change to this value to 100% */
+    margin: 2rem 0 5.5rem 0rem;
+    border-radius: 10px;
 }
 
-iframe {
+.mediaWrapper .splide__arrows {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    right: 0.7rem;
+    bottom: -4.7rem;
 }
 
-.carouselItem {
-    max-height: 320px;
-    /* Set your desired maximum height */
-    max-width: 100%;
-    /* Set your desired maximum width */
-    overflow: hidden;
-}
-
-.projectImage {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    /* Ensure the entire image fits within the container without cropping */
-    display: block;
-    background-color: rgba(124, 124, 124, 0.062);
+.mediaWrapper .splide__arrows button {
+    margin: 0;
+    background-color: transparent;
+    font-weight: 900;
+    border: none;
+    color: #1BA2DB;
+    cursor: pointer;
+    font-size: clamp(2.5rem, 5vw, 3rem);
 }

@@ -3,6 +3,11 @@ import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
 import './ImageCarousel.css'
 import { AppContext } from '../../../contexts/AppContext';
+import { Splide, SplideSlide, SplideTrack } from "@splidejs/react-splide";
+import '@splidejs/react-splide/css/core';
+import './ImageCarousel.css'
+import { IoIosArrowBack, IoIosArrowForward } from 'react-icons/io';
+import ImageSlide from './ImageSlide';
 
 const handleDragStart = (e) => e.preventDefault();
 
@@ -12,43 +17,41 @@ const ImageCarousel = ({ media }) => {
     try {
         if (media?.length !== 0) {
             return (
-                <div style={{ width: '80%', margin: '10px auto', display: 'flex', justifyContent: 'center', }}>
-                    <AliceCarousel
-                        infinite
-                        controlsStrategy='responsive'
-                        mouseTracking
-                        items={media?.map((mediaData, index) => {
-                            console.log(mediaData);
-                            if (mediaData.type === 'image') {
+                <div className='mediaWrapper'>
+                    <Splide
+                        hasTrack={false}
+                        options={{
+                            perPage: 1,
+                            arrows: true,
+                            pagination: false,
+                            drag: 'free',
+                            gap: '3rem',
+                            snap: true,
+                            autoplay: true,
+                            interval: 16000,
+                            speed: 1000,
+                            resetProgress: true,
+                            type: 'loop',
+                        }}
+                    >
+                        <SplideTrack>
+                            {media.map((item, index) => {
                                 return (
-                                    <div className='carouselItem' onClick={() => {
-                                        setImageToShowData(media)
-                                        setImageToShowIndex(index)
-                                    }}>
-                                        <img key={mediaData.src.toString()} alt={mediaData.src.toString()} className='projectImage' src={mediaData.src} onDragStart={handleDragStart} role="figure" />
-                                    </div>
+                                    <SplideSlide
+                                        onClick={() => {
+                                            setImageToShowData(media)
+                                            setImageToShowIndex(index)
+                                        }} key={item.src + index}>
+                                        <ImageSlide item={item} />
+                                    </SplideSlide>
                                 );
-                            } else if (mediaData.type === 'video') {
-                                return (
-                                    <div className='carouselItem'>
-                                        <div class="video_wrapper">
-                                            <iframe
-                                                height={'100%'}
-                                                width="100%"
-                                                src={mediaData.src}
-                                                title="YouTube video player"
-                                                frameBorder="0"
-                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                                allowFullScreen>
-
-                                            </iframe>
-                                        </div>
-                                    </div>
-                                );
-                            }
-                            return null
-                        })}
-                    />
+                            })}
+                        </SplideTrack>
+                        <div className="splide__arrows">
+                            <button className="splide__arrow splide__arrow--prev"><IoIosArrowBack /></button>
+                            <button className="splide__arrow splide__arrow--next"><IoIosArrowForward /></button>
+                        </div>
+                    </Splide>
                 </div>
             );
         }
