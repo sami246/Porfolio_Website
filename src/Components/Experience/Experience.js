@@ -23,7 +23,9 @@ export const Experience = () => {
                                     <img src={item.logoSrc} alt={`${item.company} Logo`} width='100%' height='100%' />
                                 </a>
                                 <div style={{ gap: 10 }}>
-                                    <a href={item.link} className='title-text' target="_blank" rel="noreferrer">{item.company} - {item.position} <br></br> </a>
+                                    <div className='title-text'>
+                                        <a href={item.link} target="_blank" rel="noreferrer">{item.company}</a> - <span>{item.position}</span> <br></br>
+                                    </div>
                                     <div className='technologies-text'>{item.technologies}</div>
                                 </div>
 

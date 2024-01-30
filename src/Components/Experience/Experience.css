@@ -11,12 +11,9 @@
     overflow: hidden;
 }
 
-.custom-list {
-    list-style-type: square;
-    /* Use disc as the list item marker */
-    padding-left: 20px;
-    /* Adjust the left padding as needed */
-    font-size: clamp(12px, 2vw, 15px)
+.title-text span {
+    color: var(--color-info-lighter);
+    font-size: clamp(15px, 2.2vw, 19px);
 }
 
 .logo-and-title {
@@ -25,7 +22,8 @@
     align-items: center;
 }
 
-.title-text {
+.title-text,
+.title-text a {
     /* text-decoration: none; */
     color: var(--color-info);
     text-align: left;

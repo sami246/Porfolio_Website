@@ -1,6 +1,7 @@
 .skillsBox {
-    width: 50px;
-    height: 50px;
+    width: 45px;
+    height: 45px;
+    aspect-ratio: 1;
     align-items: center;
     border-radius: 6px;
     background: var(--background-color-1);
@@ -11,8 +12,9 @@
 }
 
 .skillsBoxSmall {
-    width: 35px;
-    height: 35px;
+    width: 30px;
+    height: 30px;
+    aspect-ratio: 1;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -29,6 +31,7 @@
     flex-wrap: wrap;
     justify-content: flex-start;
     gap: 25px;
+    margin-bottom: 10px;
 }
 
 .img_description {

@@ -11,6 +11,7 @@ import FamilyNoticeImage2 from '../assets/project_images/Family Notice 2.png'
 import FamilyNoticeImage3 from '../assets/project_images/Family Notice 3.png'
 import FamilyNoticeImage4 from '../assets/project_images/Family Notice 4.png'
 import FamilyNoticeImage5 from '../assets/project_images/Family Notice 5.png'
+import AwdaImage1 from '../assets/project_images/Awda 1.png'
 
 export const ProjectData = [
     {
@@ -21,10 +22,17 @@ export const ProjectData = [
         endMonth: 'CURRENT',
         bulletPoints: [
             'Multi-platform Mobile Application to help Muslim Reverts learn the basics of Islam all in one place',
-            'Main Focus of this was front end implementation working with other developers to create the whole application'
+            'Main Focus of this was front end implementation working with other developers to create the whole application.',
+            'Skills such as React-Native-Navigation, Expo, Supabase, Async Storage and many more are displayed within this application',
+            'Work in progress screens can be seen below...'
         ],
         media: [
-
+            {
+                type: 'image',
+                src: AwdaImage1,
+                description: '',
+                link: ''
+            }
 
         ]
     },
@@ -75,7 +83,8 @@ export const ProjectData = [
             `My Final Year Project in which I built a responsive web application that was conceived to be a Trello/Facebook for family
             members. It consisted of a multitude of functions such as to-do lists, calendar (linked to Google), geo-location and 5 other
             innovative features that heightened my coding understanding and experience immensely over the long period.`,
-            `E.g. Using multiple APIs, such as Google's Maps, utilising unit testing, Django models functionality & deployment via Heroku.`
+            `E.g. Using multiple APIs, such as Google's Maps, utilising unit testing, Django models functionality & deployment via Heroku.`,
+            'Definitively not the best in terms of design but we all have to start somewhere 😅 (focus was more on the functionality)'
         ],
         media: [
             {
@@ -119,7 +128,8 @@ export const ProjectData = [
         bulletPoints: [
             `As a software engineering project, a group of colleagues and I conceived a web app, from the ground up, including all steps needed
             for a successful real-world environment such as Domain analysis, Design report etc. We used Java for the back end and React for
-            the front end. The project increased my ability to work in a pressured, time-constrained team, sharpening skills such as supporting
+            the front end.`,
+            `The project increased my ability to work in a pressured, time-constrained team, sharpening skills such as supporting
             and organising fellow team members while aiming to deliver the best end product.`
         ],
         media: [

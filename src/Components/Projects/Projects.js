@@ -19,9 +19,11 @@ export const Projects = () => {
                         <div className='ExperienceHeader'>
                             {item.link
                                 ?
-                                <a href={item.link} className='ExperienceTitle' target="_blank" rel="noreferrer">{item.title} | {item.technologies}</a>
+                                <div className='ExperienceTitle'>
+                                    <a href={item.link} target="_blank" rel="noreferrer">{item.title}</a> | <span>{item.technologies}</span>
+                                </div>
                                 :
-                                <div className='ExperienceTitle'>{item.title} | {item.technologies}</div>
+                                <div className='ExperienceTitle'>{item.title} | <span>{item.technologies}</span></div>
                             }
 
                             <div className='ExperienceTime'>{item.startMonth}{item.endMonth === item.startMonth ? null : " - " + item.endMonth}</div>
