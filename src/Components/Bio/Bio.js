@@ -24,6 +24,11 @@ export const Bio = () => {
         }
     };
 
+    const scrollToAboutMe = () => {
+        const aboutMeSection = document.getElementById("AboutMe");
+        aboutMeSection.scrollIntoView({ behavior: "smooth" });
+    };
+
     return (
         <div className='bioContainer'>
             <div className='profileImage'>
@@ -41,7 +46,10 @@ export const Bio = () => {
             </div> */}
             <div style={{ flexDirection: 'row', display: 'flex' }}>
                 <button className='button' onClick={() => onButtonClick()}>Download My CV</button>
-                <button className='button' onClick={() => document.querySelector(`#AboutMe`).scrollIntoView()}>About Me</button>
+                <button className="button" onClick={scrollToAboutMe}>
+                    About Me
+                </button>
+
             </div>
 
         </div>
