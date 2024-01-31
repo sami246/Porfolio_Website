@@ -68,7 +68,7 @@ export const Testimonial = ({ item }) => {
 
     return (
         <div id='boxContainer'>
-            <header className='boxHeading'>Testimonial</header>
+            <header className='boxHeading'>Testimonials</header>
             <div>
                 <div className='testimonialWrapper'>
                     <Splide
