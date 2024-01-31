@@ -18,8 +18,8 @@ body {
   --color-subtitle: #f9004d;
   --background-color-1: linear-gradient(145deg, #1e2024, #23272b);
   --background-color-2: #212428;
-  --shadow-1: 10px 10px 19px #1e2024,
-    -7px -7px 15px #2c3236;
+  --shadow-1: 8px 8px 17px #1e2024,
+    -5px -5px 12px #2c3236;
   --shadow-2: inset 21px 21px 19px #181a1d, inset -21px -21px 19px #202225;
   --shadow-soft: 10px 10px 10px #1e2024,
     -4px -5px 17px #2c3236;

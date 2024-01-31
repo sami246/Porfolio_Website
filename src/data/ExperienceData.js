@@ -1,4 +1,5 @@
-import featureImg from '../assets/experience_images/foodii/Feature Graphic BIG-min.jpg'
+import foodigif1 from '../assets/experience_images/foodii/foodii gif 1.gif'
+import foodigif2 from '../assets/experience_images/foodii/foodii gif 2.gif'
 // import foodiPhone1 from '../assets/experience_images/foodii/Phone Screenshots - 1.jpg'
 // import foodiPhone2 from '../assets/experience_images/foodii/Phone Screenshots - 2.jpg'
 // import foodiPhone3 from '../assets/experience_images/foodii/Phone Screenshots - 3.jpg'
@@ -29,7 +30,34 @@ export const ExperienceData = [
             Through this project, I gained valuable experience with hooks, APIs, npm packages, IOS/Android and other key technologies while
             honing my design and user experience skills.`
         ],
+        buttonLinks: [
+            {
+                title: 'Google Play Store',
+                link: 'https://play.google.com/store/apps/details?id=com.sami246.foodi'
+            },
+            {
+                title: 'Apple Store',
+                link: 'https://apps.apple.com/th/app/foodii-restaurant-companion/id6447701868'
+            },
+            {
+                title: 'Website',
+                link: 'https://foodii.co.uk'
+            },
+
+        ],
         media: [
+            {
+                type: 'image',
+                src: foodigif1,
+                link: 'https://foodii.co.uk',
+                description: ''
+            },
+            {
+                type: 'image',
+                src: foodigif2,
+                link: 'https://foodii.co.uk',
+                description: ''
+            },
             {
                 type: 'image',
                 src: foodiWebsite1,

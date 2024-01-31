@@ -7,7 +7,7 @@ const ImageSlide = ({ item }) => {
         <div className='media-slide-container'>
             {
                 item.type === 'image' ?
-                    <img src={item.src} alt='image' style={{ objectFit: 'cover', overflow: 'hidden', width: '100%', borderRadius: '10px' }} />
+                    <img loading='lazy' src={item.src} alt='image' style={{ objectFit: 'cover', overflow: 'hidden', width: '100%', borderRadius: '10px' }} />
                     :
                     <div className="video_wrapper">
                         <iframe

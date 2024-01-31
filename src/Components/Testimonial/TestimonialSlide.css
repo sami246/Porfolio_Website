@@ -6,9 +6,9 @@
     margin: 0.2rem 0.5rem;
     height: 300px;
     justify-content: space-between;
-    /* Set height to 100% to occupy the entire height of the parent */
     border-radius: 10px;
     user-select: text;
+    /* box-shadow: var(--shadow-black); */
 }
 
 .slide-header {

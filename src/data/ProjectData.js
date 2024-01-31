@@ -46,6 +46,12 @@ export const ProjectData = [
             'Built and deployed a React Admin Dashboard App With Theming, Tables, Charts, Calendar, Kanban and many more features using the syncfusion library as well as tailwind CSS as the main building blocks.',
             'The project also used React Context API, was completely responsive, and had dark and light themes, using modern UI and folder structure practices.'
         ],
+        buttonLinks: [
+            {
+                title: 'Website',
+                link: 'https://sami-dashboard.netlify.app'
+            },
+        ],
         media: [
             {
                 type: 'image',

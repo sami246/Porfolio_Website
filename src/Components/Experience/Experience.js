@@ -30,13 +30,25 @@ export const Experience = () => {
                                 </div>
 
                             </div>
-                            <div className='ExperienceTime'>{item.startMonth} - {item.endMonth}</div>
+                            <div className='ExperienceTime'>{item.startMonth} - <span style={{
+                                color: item.endMonth === "CURRENT" ? '#CD921E' : 'white',
+                                fontWeight: item.endMonth === "CURRENT" ? '600' : '400'
+                            }}>{item.endMonth}</span></div>
                         </div>
                         <ul className='custom-list'>
                             {item?.bulletPoints?.map((bulletPoint, index) => (
                                 <li key={bulletPoint + index}><HighlightText text={bulletPoint} /></li>
                             ))}
                         </ul>
+                        {item.buttonLinks &&
+                            item.buttonLinks.map((item, index) =>
+                                <a href={item.link} target="_blank" rel="noreferrer">
+                                    <button style={{ margin: '8px 15px', fontSize: '1rem' }} className='button' onClick={() => ""}>
+                                        {item.title}
+                                    </button>
+                                </a>
+                            )
+                        }
                         <ImageCarousel media={item.media} />
                         {index !== ExperienceData.length - 1 && <br></br>}
                     </div>

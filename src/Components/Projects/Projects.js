@@ -26,7 +26,10 @@ export const Projects = () => {
                                 <div className='ExperienceTitle'>{item.title} | <span>{item.technologies}</span></div>
                             }
 
-                            <div className='ExperienceTime'>{item.startMonth}{item.endMonth === item.startMonth ? null : " - " + item.endMonth}</div>
+                            <div className='ExperienceTime'>{item.startMonth}<span style={{
+                                color: item.endMonth === "CURRENT" ? '#CD921E' : 'white',
+                                fontWeight: item.endMonth === "CURRENT" ? '600' : '400'
+                            }}>{item.endMonth === item.startMonth ? null : " - " + item.endMonth}</span></div>
                         </div>
                         <div className='ExperienceBody'>
                             <ul className='custom-list'>
@@ -41,6 +44,15 @@ export const Projects = () => {
                                 </div>
                             ))} */}
                         </div>
+                        {item.buttonLinks &&
+                            item.buttonLinks.map((item, index) =>
+                                <a href={item.link} target="_blank" rel="noreferrer">
+                                    <button style={{ margin: '8px 15px', fontSize: '1rem' }} className='button' onClick={() => ""}>
+                                        {item.title}
+                                    </button>
+                                </a>
+                            )
+                        }
                         <ImageCarousel media={item.media} />
                         {/* {item.images?.map((image) => (
                             <img src={image} className='projectImage' />
