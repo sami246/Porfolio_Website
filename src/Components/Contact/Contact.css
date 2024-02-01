@@ -1,14 +1,17 @@
 .intro {
     color: var(--color-body);
+    font-size: clamp(1rem, 3vw, 1.2rem);
 }
 
 .intro span {
-    font-size: 0.8rem;
+    font-size: clamp(0.7rem, 2.8vw, 0.9rem)
 }
 
 .contact-list {
     color: var(--color-body);
     font-weight: 200;
+    font-size: clamp(1rem, 3vw, 1.2rem);
+    text-wrap: wrap;
 }
 
 .contact-list li a {

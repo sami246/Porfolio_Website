@@ -43,7 +43,7 @@ export const Experience = () => {
                         {item.buttonLinks &&
                             item.buttonLinks.map((item, index) =>
                                 <a href={item.link} target="_blank" rel="noreferrer">
-                                    <button style={{ margin: '8px 15px', fontSize: '1rem' }} className='button' onClick={() => ""}>
+                                    <button style={{ margin: '0.3em 0.7em' }} className='AppButton' onClick={() => ""}>
                                         {item.title}
                                     </button>
                                 </a>

@@ -45,8 +45,8 @@ export const Bio = () => {
                 <div>I have experience in a wide array of technologies and frameworks and am eager to learn more and take on exciting opportunities.</div>
             </div> */}
             <div style={{ flexDirection: 'row', display: 'flex' }}>
-                <button className='button' onClick={() => onButtonClick()}>Download My CV</button>
-                <button className="button" onClick={scrollToAboutMe}>
+                <button className='AppButton bigButton' onClick={() => onButtonClick()}>Download My CV</button>
+                <button className="AppButton bigButton" onClick={scrollToAboutMe}>
                     About Me
                 </button>
 

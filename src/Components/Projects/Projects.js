@@ -47,7 +47,7 @@ export const Projects = () => {
                         {item.buttonLinks &&
                             item.buttonLinks.map((item, index) =>
                                 <a href={item.link} target="_blank" rel="noreferrer">
-                                    <button style={{ margin: '8px 15px', fontSize: '1rem' }} className='button' onClick={() => ""}>
+                                    <button style={{ margin: '8px 15px' }} className='AppButton' onClick={() => ""}>
                                         {item.title}
                                     </button>
                                 </a>

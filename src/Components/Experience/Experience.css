@@ -18,7 +18,7 @@
 
 .logo-and-title {
     display: flex;
-    gap: 30px;
+    gap: 1.2rem;
     align-items: center;
 }
 
@@ -32,10 +32,9 @@
 
 .technologies-text {
     text-align: left;
-    font-size: clamp(15px, 3vw, 18px);
+    font-size: clamp(12px, 2vw, 17px);
     margin-top: 5px;
-    margin-left: clamp(1px, 3vw, 15px);
     font-weight: 300;
-    color: #fff;
+    color: #999999;
     text-wrap: balance;
 }
