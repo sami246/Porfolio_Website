@@ -1,6 +1,5 @@
 import React from 'react'
 import { IoIosQuote } from "react-icons/io";
-import { AiFillStar, AiOutlineStar } from "react-icons/ai";
 import './TestimonialSlide.css'
 
 export const TestimonialSlide = ({ item }) => {

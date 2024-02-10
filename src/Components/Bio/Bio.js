@@ -2,6 +2,7 @@ import React from 'react'
 import './Bio.css'
 import pdf from '../../assets/Sami Rahman CV.pdf'
 import { IntroSpinner } from '../SmallComponents/IntroSpinner/IntroSpinner';
+import { Slide } from 'react-awesome-reveal';
 
 export const Bio = () => {
 
@@ -30,12 +31,13 @@ export const Bio = () => {
     };
 
     return (
-        <div className='bioContainer'>
-            <div className='profileImage'>
+        <Slide direction='left' duration={1800} triggerOnce>
+            <div className='bioContainer'>
+                <div className='profileImage'>
 
-            </div>
-            <IntroSpinner />
-            {/* <div className='title'>
+                </div>
+                <IntroSpinner />
+                {/* <div className='title'>
                 <span>Hi, I’m <span className='titleHighlight'>Sami Rahman</span>
                     <br></br>Software Engineer.
                 </span>
@@ -44,14 +46,15 @@ export const Bio = () => {
                 <div>I am a Full-Stack Developer specialising in Front-End, based in London. </div>
                 <div>I have experience in a wide array of technologies and frameworks and am eager to learn more and take on exciting opportunities.</div>
             </div> */}
-            <div style={{ flexDirection: 'row', display: 'flex' }}>
-                <button className='AppButton bigButton' onClick={() => onButtonClick()}>Download My CV</button>
-                <button className="AppButton bigButton" onClick={scrollToAboutMe}>
-                    About Me
-                </button>
+                <div style={{ flexDirection: 'row', display: 'flex' }}>
+                    <button className='AppButton bigButton' onClick={() => onButtonClick()}>Download My CV</button>
+                    <button className="AppButton bigButton" onClick={scrollToAboutMe}>
+                        About Me
+                    </button>
+
+                </div>
 
             </div>
-
-        </div>
+        </Slide>
     )
 }

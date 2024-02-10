@@ -4,6 +4,7 @@ import '@splidejs/react-splide/css/core';
 import './Testimonial.css'
 import { TestimonialSlide } from './TestimonialSlide';
 import { IoIosArrowBack, IoIosArrowForward } from 'react-icons/io';
+import { Slide } from 'react-awesome-reveal';
 
 export const Testimonial = ({ item }) => {
     const testimonialData = [{
@@ -67,50 +68,52 @@ export const Testimonial = ({ item }) => {
 
 
     return (
-        <div id='boxContainer'>
-            <header className='boxHeading'>Testimonials</header>
-            <div>
-                <div className='testimonialWrapper'>
-                    <Splide
-                        hasTrack={false}
-                        options={{
-                            perPage: 1,
-                            arrows: true,
-                            pagination: false,
-                            drag: 'free',
-                            gap: '3rem',
-                            snap: true,
-                            autoplay: true,
-                            interval: 6000,
-                            speed: 1000,
-                            resetProgress: true,
-                            type: 'loop',
-                            autoHeight: true
-                        }}
-                    >
-                        <SplideTrack>
-                            {testimonialData.map((item, index) => {
-                                return (
-                                    <SplideSlide key={index}>
-                                        <TestimonialSlide item={item} />
-                                        {/* <div className='testimonialCard'>
+        <Slide direction='right' duration={1300}>
+            <div id='boxContainer'>
+                <header className='boxHeading'>Testimonials</header>
+                <div>
+                    <div className='testimonialWrapper'>
+                        <Splide
+                            hasTrack={false}
+                            options={{
+                                perPage: 1,
+                                arrows: true,
+                                pagination: false,
+                                drag: 'free',
+                                gap: '3rem',
+                                snap: true,
+                                autoplay: true,
+                                interval: 6000,
+                                speed: 1000,
+                                resetProgress: true,
+                                type: 'loop',
+                                autoHeight: true
+                            }}
+                        >
+                            <SplideTrack>
+                                {testimonialData.map((item, index) => {
+                                    return (
+                                        <SplideSlide key={index}>
+                                            <TestimonialSlide item={item} />
+                                            {/* <div className='testimonialCard'>
                                         <div>
                                             <p>{item.name}</p>
                                             <img src={item.image} alt={item.name} />
                                             <div className='testimonialGradient' />
                                         </div>
                                     </div> */}
-                                    </SplideSlide>
-                                );
-                            })}
-                        </SplideTrack>
-                        <div className="splide__arrows">
-                            <button className="splide__arrow splide__arrow--prev"><IoIosArrowBack /></button>
-                            <button className="splide__arrow splide__arrow--next"><IoIosArrowForward /></button>
-                        </div>
-                    </Splide>
+                                        </SplideSlide>
+                                    );
+                                })}
+                            </SplideTrack>
+                            <div className="splide__arrows">
+                                <button className="splide__arrow splide__arrow--prev"><IoIosArrowBack /></button>
+                                <button className="splide__arrow splide__arrow--next"><IoIosArrowForward /></button>
+                            </div>
+                        </Splide>
+                    </div>
                 </div>
             </div>
-        </div>
+        </Slide>
     )
 }
