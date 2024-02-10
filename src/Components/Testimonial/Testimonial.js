@@ -7,7 +7,7 @@ import { IoIosArrowBack, IoIosArrowForward } from 'react-icons/io';
 
 export const Testimonial = ({ item }) => {
     const testimonialData = [{
-        name: 'Haseem Ibn Ahmad',
+        name: 'Haseem Isaac',
         image: 'https://avatars.githubusercontent.com/u/95173192?v=4',
         desc: "Brilliant guy to work with, expertise in so many different areas, has helped me in a multitude of projects but more importantly personally too. Would be a great member of any team, that's for sure.",
         link: 'https://www.linkedin.com/in/haseemisaac/',
