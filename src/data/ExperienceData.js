@@ -9,6 +9,7 @@ import foodigif2 from '../assets/experience_images/foodii/foodii gif 2.gif'
 import foodiCollage1 from '../assets/experience_images/foodii/phone screenshots collage 1.png'
 import foodiCollage2 from '../assets/experience_images/foodii/phone screenshots collage 2.png'
 import foodiWebsite1 from '../assets/experience_images/foodii/Website 1.png'
+import foodiWebsiteGIF from '../assets/experience_images/foodii/Foodii Website GIF.gif'
 
 
 import foodiLogo from '../assets/logos/foodii.png'
@@ -55,6 +56,12 @@ export const ExperienceData = [
             {
                 type: 'image',
                 src: foodigif2,
+                link: 'https://foodii.co.uk',
+                description: ''
+            },
+            {
+                type: 'image',
+                src: foodiWebsiteGIF,
                 link: 'https://foodii.co.uk',
                 description: ''
             },
