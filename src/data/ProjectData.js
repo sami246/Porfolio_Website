@@ -2,6 +2,11 @@ import DashboardImage1 from '../assets/project_images/Admin Dashboard 1.png'
 import DashboardImage2 from '../assets/project_images/Admin Dashboard 2.png'
 import DashboardImage3 from '../assets/project_images/Admin Dashboard 3.png'
 import DashboardImage4 from '../assets/project_images/Admin Dashboard 4.png'
+import RoyzImage1 from '../assets/project_images/Royz Rental 1.png'
+import RoyzImage2 from '../assets/project_images/Royz Rental 2.png'
+import RoyzImage3 from '../assets/project_images/Royz Rental 3.png'
+import RoyzImage4 from '../assets/project_images/Royz Rental 4.png'
+import RoyzImage5 from '../assets/project_images/Royz Rental 5.png'
 import TravelAdvisorImage1 from '../assets/project_images/Travel Advisor 1.png'
 import RecipeFinderImage1 from '../assets/project_images/Recipe Finder 1.png'
 import RecipeFinderImage2 from '../assets/project_images/Recipe Finder 2.png'
@@ -30,6 +35,51 @@ export const ProjectData = [
             {
                 type: 'image',
                 src: AwdaImage1,
+                description: '',
+                link: ''
+            }
+
+        ]
+
+    },
+    {
+        title: 'Royz Rental',
+        technologies: 'React, Vercel',
+        link: 'www.royzrental.com',
+        startMonth: 'MAR 2024',
+        endMonth: 'APRIL 2024',
+        bulletPoints: [
+            'Freelance project to build a website for a car rental business. Everything from the text, design and images handled by myself. Attempt at a sleek, cool design which car enthusiasts will appreciate and be more likely to hire from.',
+            'Fully responsive, using modern UI and features such as toasts, blur background, carousels e.t.c.'
+        ],
+        media: [
+            {
+                type: 'image',
+                src: RoyzImage1,
+                description: '',
+                link: ''
+            },
+            {
+                type: 'image',
+                src: RoyzImage2,
+                description: '',
+                link: ''
+            },
+            {
+                type: 'image',
+                src: RoyzImage3,
+                description: '',
+                link: ''
+            },
+            {
+                type: 'image',
+                src: RoyzImage4,
+                description: '',
+                link: ''
+            },
+            {
+                type: 'image',
+                src: RoyzImage5,
                 description: '',
                 link: ''
             }
