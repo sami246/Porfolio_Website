@@ -45,7 +45,7 @@ export const ProjectData = [
     {
         title: 'Royz Rental',
         technologies: 'React, Vercel',
-        link: 'www.royzrental.com',
+        link: 'https://www.royzrental.com',
         startMonth: 'MAR 2024',
         endMonth: 'APRIL 2024',
         bulletPoints: [
