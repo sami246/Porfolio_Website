@@ -7,6 +7,11 @@ import RoyzImage2 from '../assets/project_images/Royz Rental 2.png'
 import RoyzImage3 from '../assets/project_images/Royz Rental 3.png'
 import RoyzImage4 from '../assets/project_images/Royz Rental 4.png'
 import RoyzImage5 from '../assets/project_images/Royz Rental 5.png'
+// import RoyzImage6 from '../assets/project_images/Royz Rental 6.png'
+import LearnfinityImage1 from '../assets/project_images/Learnfinity 1.jpg'
+import LearnfinityImage2 from '../assets/project_images/Learnfinity 2.jpg'
+import LearnfinityImage3 from '../assets/project_images/Learnfinity 3.jpg'
+import LearnfinityImage4 from '../assets/project_images/Learnfinity 4.jpg'
 import TravelAdvisorImage1 from '../assets/project_images/Travel Advisor 1.png'
 import RecipeFinderImage1 from '../assets/project_images/Recipe Finder 1.png'
 import RecipeFinderImage2 from '../assets/project_images/Recipe Finder 2.png'
@@ -84,6 +89,44 @@ export const ProjectData = [
                 link: ''
             }
 
+        ]
+    },
+    {
+        title: 'Learnfinity',
+        technologies: 'React, Vercel',
+        link: 'https://www.learnfinity.co.uk',
+        startMonth: 'MAY 2024',
+        endMonth: 'JUNE 2024',
+        bulletPoints: [
+            'Freelance project to build a website for a computer science mentoring/bootcamp business. The idea was to have a clean, professional design that would attract students and parents alike. While showing all of the main features of the business such as the courses, tutors, testimonials and contact information.',
+            'Fully responsive, using modern UI and features such as toasts, blur background, carousels e.t.c.',
+            'There have been many changes to the website since the initial build, such as adding a blog, more courses, and a more interactive design.'
+        ],
+        media: [
+            {
+                type: 'image',
+                src: LearnfinityImage1,
+                description: '',
+                link: ''
+            },
+            {
+                type: 'image',
+                src: LearnfinityImage2,
+                description: '',
+                link: ''
+            },
+            {
+                type: 'image',
+                src: LearnfinityImage3,
+                description: '',
+                link: ''
+            },
+            {
+                type: 'image',
+                src: LearnfinityImage4,
+                description: '',
+                link: ''
+            },
         ]
     },
     {
@@ -253,22 +296,22 @@ export const ProjectData = [
             }
         ]
     },
-    {
-        title: 'Demon Slayer Unity Game',
-        technologies: 'Unity, C#',
-        link: 'https://docs.google.com/document/d/1QOmrPP6H8uLkEXbx791s3Ve1nKxMR7-HCJIHb9vqjhQ/edit?usp=sharing',
-        startMonth: 'JAN 2021',
-        endMonth: 'JUNE 2021',
-        bulletPoints: [
-            'Using Unity & C# I created a game based on the anime demon slayer. It included various game-making techniques such as scores, health bar, attacking, animations, sound design, level design, AI, enemies, UI and much more.'
-        ],
-        media: [
-            {
-                type: 'video',
-                src: 'https://www.youtube.com/embed/HNdUZPEna1Q?si=0c98yTXOVIHkDSFi'
-            },
-        ]
-    },
+    // {
+    //     title: 'Demon Slayer Unity Game',
+    //     technologies: 'Unity, C#',
+    //     link: 'https://docs.google.com/document/d/1QOmrPP6H8uLkEXbx791s3Ve1nKxMR7-HCJIHb9vqjhQ/edit?usp=sharing',
+    //     startMonth: 'JAN 2021',
+    //     endMonth: 'JUNE 2021',
+    //     bulletPoints: [
+    //         'Using Unity & C# I created a game based on the anime demon slayer. It included various game-making techniques such as scores, health bar, attacking, animations, sound design, level design, AI, enemies, UI and much more.'
+    //     ],
+    //     media: [
+    //         {
+    //             type: 'video',
+    //             src: 'https://www.youtube.com/embed/HNdUZPEna1Q?si=0c98yTXOVIHkDSFi'
+    //         },
+    //     ]
+    // },
     // {
     //     title: '',
     //     technologies: '',
