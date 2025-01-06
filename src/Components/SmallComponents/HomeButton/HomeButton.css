@@ -1,0 +1,33 @@
+.home-button {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background-color: #20a7d8;
+    /* blue color */
+    color: white;
+    padding: 12px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.home-button:hover {
+    transform: scale(1.2);
+    background-color: #0594c9;
+    /* Darker blue */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+.home-button:active {
+    transform: scale(1.1);
+    background-color: #0384b3;
+    /* Even darker blue */
+}
+
+.home-icon {
+    font-size: clamp(23px, 4vw, 35px);
+    /* Adjust icon size */
+}

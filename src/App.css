@@ -102,8 +102,8 @@
 
 .boxText {
   font-size: 14px;
-  line-height: 22px;
-  color: var(--color-lightn)
+  line-height: 23px;
+  color: var(--color-light)
 }
 
 .boxHeading::after {

@@ -25,6 +25,7 @@ import AwdaImage1 from '../assets/project_images/Awda 1.png'
 
 export const ProjectData = [
     {
+        id: 'awda',
         title: 'Awda',
         technologies: 'React Native, Expo, Supabase, Figma',
         link: null,
@@ -48,6 +49,7 @@ export const ProjectData = [
 
     },
     {
+        id: 'royz-rental',
         title: 'Royz Rental',
         technologies: 'React, Vercel',
         link: 'https://www.royzrental.com',
@@ -92,6 +94,7 @@ export const ProjectData = [
         ]
     },
     {
+        id: 'learnfinity',
         title: 'Learnfinity',
         technologies: 'React, Vercel',
         link: 'https://www.learnfinity.co.uk',
@@ -130,6 +133,7 @@ export const ProjectData = [
         ]
     },
     {
+        id: 'admin-dashboard',
         title: 'Admin Dashboard',
         technologies: 'React JS, Tailwind CSS',
         link: 'https://sami-dashboard.netlify.app',
@@ -173,6 +177,7 @@ export const ProjectData = [
         ]
     },
     {
+        id: 'family-notice',
         title: 'Family Notice',
         technologies: 'Django, HTML, JQuery',
         link: 'https://github.com/sami246/FamilyNotice',
@@ -219,6 +224,7 @@ export const ProjectData = [
         ]
     },
     {
+        id: 'friender',
         title: 'Friender',
         technologies: 'React JS, Java',
         link: null,
@@ -236,6 +242,7 @@ export const ProjectData = [
         ]
     },
     {
+        id: 'auction-website',
         title: 'Auction Website (eBay Clone)',
         technologies: 'Django, HTML, Ajax, CSS, Postgress',
         link: null,
@@ -250,6 +257,7 @@ export const ProjectData = [
         ]
     },
     {
+        id: 'recipe-finder',
         title: 'Recipe Finder Website',
         technologies: 'React JS, Splide, CSS',
         link: 'https://github.com/sami246/recipe_app',
@@ -278,6 +286,7 @@ export const ProjectData = [
         ]
     },
     {
+        id: 'travel-advisor',
         title: 'Travel Advisor Website',
         technologies: 'React JS, Material UI',
         link: 'https://sami-travel-advisor.netlify.app',
@@ -297,6 +306,7 @@ export const ProjectData = [
         ]
     },
     // {
+    //     id: 'demon-slayer-unity-game',
     //     title: 'Demon Slayer Unity Game',
     //     technologies: 'Unity, C#',
     //     link: 'https://docs.google.com/document/d/1QOmrPP6H8uLkEXbx791s3Ve1nKxMR7-HCJIHb9vqjhQ/edit?usp=sharing',

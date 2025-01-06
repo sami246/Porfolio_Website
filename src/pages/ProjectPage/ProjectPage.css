@@ -1,0 +1,152 @@
+/* Project Page Container */
+.project-page-container {
+    width: 100%;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin: 0 auto;
+}
+
+.error-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Project Details */
+.project-details {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.project-title {
+    font-size: 2rem;
+    color: #333;
+    margin: 0;
+    text-align: center;
+}
+
+.project-technologies,
+.project-duration {
+    font-size: 1.1rem;
+    color: #666;
+    text-align: center;
+}
+
+.project-description h2 {
+    font-size: 1.5rem;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+.project-description ul {
+    list-style: disc inside;
+    padding-left: 20px;
+}
+
+.project-description li {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+/* Project Link */
+.project-link {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.project-link a {
+    color: #0073e6;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.project-link a:hover {
+    text-decoration: underline;
+}
+
+/* Media Section */
+.project-media {
+    margin-top: 20px;
+}
+
+.project-media h2 {
+    font-size: 1.5rem;
+    color: #444;
+    margin-bottom: 15px;
+}
+
+.media-gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Responsive ImagesGallery */
+.test .image-gallery {
+    width: 100%;
+    max-width: 800px;
+}
+
+.test .actual-image {
+    height: auto;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+.test .thumbnail-image {
+    height: 60px;
+    object-fit: cover;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .project-title {
+        font-size: 1.5rem;
+    }
+
+    .project-description h2,
+    .project-media h2 {
+        font-size: 1.2rem;
+    }
+
+    .project-technologies,
+    .project-duration {
+        font-size: 1rem;
+    }
+
+    .test .actual-image {
+        max-height: 300px;
+    }
+
+    .test .thumbnail-image {
+        height: 50px;
+    }
+}
+
+@media (max-width: 480px) {
+    .project-page-container {
+        padding: 10px;
+    }
+
+    .project-title {
+        font-size: 1.2rem;
+    }
+
+    .project-technologies,
+    .project-duration {
+        font-size: 0.9rem;
+    }
+
+    .test .actual-image {
+        max-height: 200px;
+    }
+
+    .test .thumbnail-image {
+        height: 40px;
+    }
+}

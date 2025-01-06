@@ -9,7 +9,7 @@ export const IntroSpinner = () => {
                 <section className="animation">
                     <div className="first"><div className='box'>Sami Rahman</div></div>
                     <div className="second"><div className='box'>A Software Developer</div></div>
-                    <div className="third"><div className='box'>Looking for Work</div></div>
+                    <div className="third"><div className='box'>Open to Work</div></div>
                 </section>
             </div>
         </main>
