@@ -24,6 +24,7 @@ import xcodeImage from '../assets/logos/xcode.png'
 import unityImage from '../assets/logos/unity.svg'
 import googleCloudImage from '../assets/logos/google_cloud.svg'
 import gitHubImage from '../assets/logos/github.png'
+import shopifyImage from '../assets/logos/shopify.png'
 
 
 export const main_skills = [
@@ -138,8 +139,10 @@ export const secondary_skills = [
         logo: androidStudioImage,
         description: 'Android Studio'
     },
-
-
+    {
+        logo: shopifyImage,
+        description: 'Shopify'
+    },
     {
         logo: googleCloudImage,
         description: 'Google Cloud Platform'
