@@ -1,0 +1,44 @@
+.PrivacyContainer {
+    padding: 1vw 6vw 6vw;
+    background-color: var(--background-color-2);
+    color: #acacac
+}
+
+.heading2 {
+    padding: 1.2rem 0;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #31bbee;
+}
+
+.heading3 {
+    padding: 1rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #0088b9;
+}
+
+.heading4 {
+    padding: 0.8rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #0b6a8d;
+}
+
+.bulletPoint {
+    margin-left: 3vw;
+}
+
+.headingText {
+    /* font-family: 'Francois One'; */
+    /* text-decoration-line: underline; */
+    /* font-size: 4.5vw; */
+    font-size: max(2.5rem, 4.5vw);
+    color: #20a7d8;
+    font-weight: 700;
+    padding-top: 1.5rem;
+    padding-bottom: 1.2rem;
+    line-height: 1.05;
+    text-align: center;
+    /* text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.6); */
+}
