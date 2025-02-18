@@ -10,18 +10,86 @@ import foodiCollage1 from '../assets/experience_images/foodii/phone screenshots 
 import foodiCollage2 from '../assets/experience_images/foodii/phone screenshots collage 2.png'
 import foodiWebsite1 from '../assets/experience_images/foodii/Website 1.png'
 import foodiWebsiteGIF from '../assets/experience_images/foodii/Foodii Website GIF.gif'
+import Atiyyah1 from '../assets/experience_images/Atiyyah 1.png'
+import RoyzImage1 from '../assets/project_images/Royz Rental 1.png'
+import LearnfinityImage1 from '../assets/project_images/Learnfinity 1.jpg'
 
 
 import foodiLogo from '../assets/logos/foodii.png'
 
 export const ExperienceData = [
     {
+        company: 'Freelance',
+        position: 'Developer',
+        technologies: 'Multiple',
+        link: '',
+        startMonth: 'May 2023',
+        endMonth: 'CURRENT',
+        logoSrc: 'https://cdn.dribbble.com/userupload/22808646/file/original-cd940b45bbed325d172547e4181e59b2.jpg',
+        bulletPoints: [
+            `Working with multiple clients to develop and maintain websites and applications using a variety of technologies.`,
+            `Examples include a website for a perfume e-commerce business with Shopify, a rental platform for a car rental company, and a learning platform for a tutoring company.`,
+            `Some non-exhaustive examples are below, and some of these project have further information in the projects section below.`
+        ],
+        buttonLinks: [
+            {
+                title: 'Atiyyah',
+                link: 'https://www.atiyyah.co.uk/'
+            },
+            {
+                title: 'Royz Rental',
+                link: 'https://www.royzrental.com/'
+            },
+            {
+                title: 'Learnfinity',
+                link: 'https://foodii.co.uk'
+            },
+
+        ],
+        media: [
+            {
+                type: 'image',
+                src: Atiyyah1,
+                link: 'https://www.atiyyah.co.uk/',
+                description: 'Atiyyah Website'
+            },
+            {
+                type: 'image',
+                src: RoyzImage1,
+                link: 'https://www.royzrental.com/',
+                description: 'Royz Rental Website'
+            },
+            {
+                type: 'image',
+                src: LearnfinityImage1,
+                link: 'https://www.learnfinity.co.uk/',
+                description: 'Learnfinity Website'
+            }
+        ]
+    },
+    {
+        company: 'VirtualE',
+        position: 'Frontend Developer',
+        technologies: 'React JS, Tailwind CSS, MongoDB',
+        link: 'https://www.linkedin.com/company/virtuale-sem/',
+        startMonth: 'NOV 2024',
+        endMonth: 'CURRENT',
+        logoSrc: 'https://media.licdn.com/dms/image/v2/D4D0BAQEvv7hosCoNzw/company-logo_200_200/company-logo_200_200/0/1736416614108/virtuale_sem_logo?e=1747872000&v=beta&t=8nqTbgOrML6_t0cre6ucZzndjULk9cXMQyJp1Bf6zSM',
+        bulletPoints: [
+            `Enhanced User Experience: Designed and implemented front-end architecture decisions that streamlined development, enabling faster feature deployment and improved usability.`,
+            `Feature Development: Built and integrated key features like a notification system for real-time updates and a productivity timer to help employees manage their workflow efficiently.`,
+            `Cross-Team Collaboration: Worked closely with the backend team to ensure seamless feature integration, optimizing performance and enhancing overall platform functionality.`
+        ],
+        media: [
+        ]
+    },
+    {
         company: 'Foodii',
         position: 'Lead Developer',
         technologies: 'React Native, Expo, Supabase',
         link: 'https://www.foodii.co.uk',
         startMonth: 'SEP 2022',
-        endMonth: 'CURRENT',
+        endMonth: 'FEB 2023',
         logoSrc: foodiLogo,
         bulletPoints: [
             `Developed a mobile application/website from the ground up in just five months using React, React Native and Firebase/Supabase.
@@ -29,7 +97,8 @@ export const ExperienceData = [
             architecture and more.`,
             `The app continues to evolve and grow, providing ongoing opportunities for learning and improvement.
             Through this project, I gained valuable experience with hooks, APIs, npm packages, IOS/Android and other key technologies while
-            honing my design and user experience skills.`
+            honing my design and user experience skills.`,
+            `App currently on hold due to other commitments but will be continued in the future.`
         ],
         buttonLinks: [
             {
@@ -121,6 +190,7 @@ export const ExperienceData = [
             // },
         ]
     },
+
     {
         company: 'Threepipe Reply',
         position: 'Developer',

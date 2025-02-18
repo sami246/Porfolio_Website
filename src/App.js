@@ -1,7 +1,6 @@
 import { Analytics } from '@vercel/analytics/react';
 import './App.css';
 import { AppProvider } from './contexts/AppContext';
-import { MainApp } from './MainApp';
 import ModalContainer from './routes/ModalContainer';
 import { BrowserRouter } from 'react-router-dom';
 

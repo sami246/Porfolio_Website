@@ -22,15 +22,56 @@ import FamilyNoticeImage3 from '../assets/project_images/Family Notice 3.png'
 import FamilyNoticeImage4 from '../assets/project_images/Family Notice 4.png'
 import FamilyNoticeImage5 from '../assets/project_images/Family Notice 5.png'
 import AwdaImage1 from '../assets/project_images/Awda 1.png'
+import QuickTeamsImage1 from '../assets/project_images/Quick Teams 1.jpg'
+import QuickTeamsImage2 from '../assets/project_images/Quick Teams 2.jpg'
 
 export const ProjectData = [
+    {
+        id: 'quick-teams',
+        title: 'Quick Teams',
+        technologies: 'React Native, Expo, Figma',
+        link: null,
+        startMonth: 'NOV 2024',
+        endMonth: 'JAN 2025',
+        bulletPoints: [
+            'Effortless Team Generation: Built a fast and intuitive mobile app for quickly creating balanced sports teams, streamlining the team-picking process.',
+            'Modern Navigation & Type Safety: Used Expo Router for seamless navigation and TypeScript for a robust, maintainable codebase.',
+            'Offline-First Performance: Designed the app with offline-first standards, ensuring a smooth user experience even without an internet connection.',
+            'Optimized UI & Monetization: Created a clean, user-friendly interface with persistent sorting options for player lists while integrating Google AdMob for passive revenue.'
+        ],
+        buttonLinks: [
+            {
+                title: 'Google Play Store',
+                link: 'https://play.google.com/store/apps/details?id=com.SRMakes.QuickTeams&gl=UK'
+            },
+            {
+                title: 'App Store',
+                link: 'https://apps.apple.com/us/app/quick-teams-team-generator/id6740728374'
+            }
+        ],
+        media: [
+            {
+                type: 'image',
+                src: QuickTeamsImage1,
+                description: '',
+                link: ''
+            },
+            {
+                type: 'image',
+                src: QuickTeamsImage2,
+                description: '',
+                link: ''
+            }
+
+        ]
+    },
     {
         id: 'awda',
         title: 'Awda',
         technologies: 'React Native, Expo, Supabase, Figma',
         link: null,
         startMonth: 'DEC 2023',
-        endMonth: 'CURRENT',
+        endMonth: 'FEB 2024',
         bulletPoints: [
             'Multi-platform Mobile Application to help Muslim Reverts learn the basics of Islam all in one place',
             'Main Focus of this was front end implementation working with other developers to create the whole application.',

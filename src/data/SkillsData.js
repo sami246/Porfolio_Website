@@ -25,6 +25,7 @@ import unityImage from '../assets/logos/unity.svg'
 import googleCloudImage from '../assets/logos/google_cloud.svg'
 import gitHubImage from '../assets/logos/github.png'
 import shopifyImage from '../assets/logos/shopify.png'
+import figmaImage from '../assets/logos/figma.png'
 
 
 export const main_skills = [
@@ -89,32 +90,8 @@ export const secondary_skills = [
         description: 'Google Play Store'
     },
     {
-        logo: javaImage,
-        description: 'Java'
-    },
-    {
-        logo: youtubeImage,
-        description: 'Youtube'
-    },
-    {
-        logo: nodejsImage,
-        description: 'Node JS'
-    },
-    {
-        logo: wixImage,
-        description: 'Wix'
-    },
-    {
         logo: photoshopImage,
         description: 'Photoshop CC'
-    },
-    {
-        logo: phpImage,
-        description: 'PHP'
-    },
-    {
-        logo: djangoImage,
-        description: 'Django'
     },
     {
         logo: gitHubImage,
@@ -125,8 +102,23 @@ export const secondary_skills = [
         logo: mysqlImage,
         description: 'mySQL'
     },
+    {
+        logo: youtubeImage,
+        description: 'Youtube'
+    },
+    {
+        logo: wixImage,
+        description: 'Wix'
+    },
 
-
+    {
+        logo: phpImage,
+        description: 'PHP'
+    },
+    {
+        logo: djangoImage,
+        description: 'Django'
+    },
     {
         logo: xcodeImage,
         description: 'xCode'
@@ -146,5 +138,17 @@ export const secondary_skills = [
     {
         logo: googleCloudImage,
         description: 'Google Cloud Platform'
+    },
+    {
+        logo: javaImage,
+        description: 'Java'
+    },
+    {
+        logo: nodejsImage,
+        description: 'Node JS'
+    },
+    {
+        logo: figmaImage,
+        description: 'Figma'
     },
 ]

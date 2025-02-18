@@ -1,7 +1,6 @@
 import React from 'react'
 import './Projects.css'
 import { ProjectData } from '../../data/ProjectData'
-import ImageCarousel from '../SmallComponents/ImageCarousel/ImageCarousel'
 import HighlightText from '../SmallComponents/HighlightText/HighlightText'
 import { Slide } from 'react-awesome-reveal'
 import ImagesGallery from '../SmallComponents/ImagesGallery/ImagesGallery'
@@ -52,9 +51,11 @@ export const Projects = () => {
                                 )
                             }
                             {/* <ImageCarousel media={item.media} /> */}
-                            <div style={{ marginTop: 15, marginBottom: 30 }}>
-                                <ImagesGallery imagesData={item.media} />
-                            </div>
+                            {item?.media && item?.media.length > 0 &&
+                                <div style={{ marginTop: 15, marginBottom: 30 }}>
+                                    <ImagesGallery imagesData={item.media} />
+                                </div>
+                            }
                             {/* {item.images?.map((image) => (
                             <img src={image} className='projectImage' />
                         ))} */}

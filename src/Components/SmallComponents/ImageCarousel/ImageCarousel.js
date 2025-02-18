@@ -8,7 +8,7 @@ import './ImageCarousel.css'
 import { IoIosArrowBack, IoIosArrowForward } from 'react-icons/io';
 import ImageSlide from './ImageSlide';
 
-const handleDragStart = (e) => e.preventDefault();
+// const handleDragStart = (e) => e.preventDefault();
 
 const ImageCarousel = ({ media }) => {
     const { setImageToShowData, setImageToShowIndex } = useContext(AppContext)
