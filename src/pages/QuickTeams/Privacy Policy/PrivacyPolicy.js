@@ -1,5 +1,6 @@
 import React from 'react';
 import './PrivacyPolicy.css';
+import { Link } from 'react-router-dom';
 
 const PrivacyPolicy = () => {
     return (
@@ -7,7 +8,7 @@ const PrivacyPolicy = () => {
             <div className='headingText'>Privacy Policy</div>
 
             <div className='boldText'>Last updated: [06/01/2025]</div>
-            <div className='heading2' style={{ textAlign: 'center' }}>Quick Teams</div>
+            <div className='heading2' style={{ textAlign: 'center' }}><Link className='heading2' to={'/quick-teams'}>Quick Teams</Link></div>
 
             This Privacy Policy describes Our policies and procedures on the collection, use, and disclosure of Your information when You use the Service and explains Your privacy rights and how the law protects You.
             <br />
