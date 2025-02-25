@@ -107,11 +107,11 @@ const QuickTeamsHome = () => {
         </p>
 
         <div style={styles.downloadButtons}>
-          <a target='_blank' href="https://play.google.com/store/apps/details?id=com.SRMakes.QuickTeams" style={styles.downloadButton}>
+          <a target='_blank' rel="noreferrer" href="https://play.google.com/store/apps/details?id=com.SRMakes.QuickTeams" style={styles.downloadButton}>
             <FaGooglePlay style={styles.downloadIcon} />
             <span>Google Play</span>
           </a>
-          <a target='_blank' href="https://apps.apple.com/us/app/quick-teams-team-generator/id6740728374" style={styles.downloadButton}>
+          <a target='_blank' rel="noreferrer" href="https://apps.apple.com/us/app/quick-teams-team-generator/id6740728374" style={styles.downloadButton}>
             <FaAppStore style={styles.downloadIcon} />
             <span>Apple Store</span>
           </a>
