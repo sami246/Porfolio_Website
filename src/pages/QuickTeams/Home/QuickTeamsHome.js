@@ -105,6 +105,9 @@ const QuickTeamsHome = () => {
         <p>
           Read our <Link to="/quick-teams/privacy-policy" style={styles.privacyLink}>Privacy Policy</Link>.
         </p>
+        <p>
+          Delete Account <Link to="/quick-teams/delete-account" style={styles.privacyLink}>here</Link>.
+        </p>
 
         <div style={styles.downloadButtons}>
           <a target='_blank' rel="noreferrer" href="https://play.google.com/store/apps/details?id=com.SRMakes.QuickTeams" style={styles.downloadButton}>
