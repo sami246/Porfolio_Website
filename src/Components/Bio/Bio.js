@@ -1,12 +1,13 @@
-import React from 'react'
 import './Bio.css'
-import pdf from '../../assets/Sami Rahman CV.pdf'
+import pdf from '../../assets/Sami Rahman 2025 CV.pdf'
 import { IntroSpinner } from '../SmallComponents/IntroSpinner/IntroSpinner';
 import { Slide } from 'react-awesome-reveal';
+import { FaDownload, FaUser, FaGithub } from 'react-icons/fa';
 
 export const Bio = () => {
 
     const onButtonClick = () => {
+        // NOTE: window.confirm() should ideally be replaced with a custom modal in a React app.
         const shouldDownload = window.confirm('Do you want to download the CV?');
 
         if (shouldDownload) {
@@ -37,21 +38,33 @@ export const Bio = () => {
 
                 </div>
                 <IntroSpinner />
-                {/* <div className='title'>
-                <span>Hi, I’m <span className='titleHighlight'>Sami Rahman</span>
-                    <br></br>Software Engineer.
-                </span>
-            </div>
-            <div className='bioBody'>
-                <div>I am a Full-Stack Developer specialising in Front-End, based in London. </div>
-                <div>I have experience in a wide array of technologies and frameworks and am eager to learn more and take on exciting opportunities.</div>
-            </div> */}
-                <div style={{ flexDirection: 'row', display: 'flex' }}>
-                    <button className='AppButton bigButton' onClick={() => onButtonClick()}>Download My CV</button>
-                    <button className="AppButton bigButton" onClick={scrollToAboutMe}>
+
+                {/* New specific wrapper class */}
+                <div className='bio-button-stack'>
+                    {/* Primary Button Style for CV Download */}
+                    <button className='bio-action-button primary-button' onClick={() => onButtonClick()}>
+                        <FaDownload style={{ marginRight: '8px' }} />
+                        Download My CV
+                    </button>
+
+                    {/* Secondary Button Style */}
+                    <button className="bio-action-button" onClick={scrollToAboutMe}>
+                        <FaUser style={{ marginRight: '8px' }} />
                         About Me
                     </button>
 
+                    <a
+                        href="https://github.com/sami246"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className='bio-link-wrapper'
+                    >
+                        {/* Secondary Button Style for Github */}
+                        <button className='bio-action-button github-button'>
+                            <FaGithub style={{ marginRight: '8px' }} />
+                            Github
+                        </button>
+                    </a>
                 </div>
 
             </div>

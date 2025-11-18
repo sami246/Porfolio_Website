@@ -17,6 +17,7 @@ body {
   --color-gray: #f6f6f6;
   --color-subtitle: #f9004d;
   --background-color-1: linear-gradient(145deg, #1e2024, #23272b);
+  --background-color-2-lighter: #292d31;
   --background-color-2: #212428;
   --shadow-1: 8px 8px 17px #1e2024,
     -5px -5px 12px #2c3236;

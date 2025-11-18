@@ -6,7 +6,7 @@
 }
 
 .App {
-  background-color: var(--background-color-2);
+  background: linear-gradient(145deg, #383a3d, #23272b, #27282b);
   color: white;
   display: flex;
   height: 100vh;
@@ -28,7 +28,7 @@
 }
 
 .rightContainer {
-  flex: 1.2;
+  flex: 2.5;
   overflow-y: auto;
   padding: 20px;
   /* Hide the scrollbar and make it transparent */
@@ -83,6 +83,7 @@
 }
 
 #boxContainer {
+  background-color: var(--background-color-2);
   box-shadow: var(--shadow-soft);
   border-radius: 6px;
   margin-bottom: 40px;
@@ -192,4 +193,78 @@ a:hover {
 
 .image-arrow:hover {
   background-color: rgba(126, 126, 126, 0.548);
+}
+
+/* --- FIXED CTA BUTTON STYLES --- */
+
+/* Keyframes for the subtle bounce */
+@keyframes slowBounce {
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-5px);
+  }
+}
+
+.fixed-cta-link {
+  /* Fixed positioning relative to the viewport */
+  position: fixed;
+  /* 🚨 CHANGE: Anchor it to the LEFT edge */
+  left: 20px;
+  /* Keep it anchored to the BOTTOM edge */
+  bottom: 20px;
+
+  /* Remove the 'right: 20px;' property */
+  right: auto;
+
+  /* Ensure it is above other content */
+  z-index: 50;
+  max-width: 250px;
+  /* Apply the bounce animation */
+  animation: slowBounce 3s infinite ease-in-out;
+}
+
+.fixed-cta-button {
+  /* Existing flashy styles */
+  background: var(--color-primary) !important;
+  color: var(--color-white) !important;
+  font-weight: 700 !important;
+  padding: 12px 18px !important;
+  box-shadow: 0 0 15px rgba(1, 132, 255, 0.9), 0 0 30px rgba(1, 132, 255, 0.6) !important;
+  white-space: nowrap;
+  transition: all 0.3s ease-in-out;
+  text-wrap: balance;
+}
+
+.fixed-cta-button:hover {
+  box-shadow: 0 0 25px rgba(1, 132, 255, 1), 0 0 50px rgba(1, 132, 255, 0.8) !important;
+  transform: scale(1.05);
+  filter: brightness(1.1);
+  animation: none;
+}
+
+/* --- MOBILE RESPONSIVENESS (BREAKPOINT AT 768px) --- */
+@media screen and (max-width: 768px) {
+
+  /* On mobile, move it to the bottom center (no left sidebar exists) */
+  .fixed-cta-link {
+    bottom: 8px;
+    left: -2px;
+    /* Reset left property */
+    transform: translateX(50%);
+    /* Center horizontally */
+    width: 30%;
+    max-width: 450px;
+
+  }
+
+  .fixed-cta-button {
+    width: 100%;
+    white-space: normal;
+    padding: 10px 10px !important;
+  }
 }

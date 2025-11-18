@@ -1,7 +1,6 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../../../assets/logos/quick-teams-logo.png';
-import banner from '../../../assets/project_images/Quick Teams 1.jpg';
+// import banner from '../../../assets/project_images/Quick Teams 1.jpg';
 
 const QuickTeamsDeleteAccount = () => {
     const styles = {

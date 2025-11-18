@@ -24,8 +24,93 @@ import FamilyNoticeImage5 from '../assets/project_images/Family Notice 5.png'
 import AwdaImage1 from '../assets/project_images/Awda 1.png'
 import QuickTeamsImage1 from '../assets/project_images/Quick Teams 1.jpg'
 import QuickTeamsImage2 from '../assets/project_images/Quick Teams 2.jpg'
+import foodigif1 from '../assets/experience_images/foodii/foodii gif 1.gif'
+import foodigif2 from '../assets/experience_images/foodii/foodii gif 2.gif'
+// import foodiPhone1 from '../assets/experience_images/foodii/Phone Screenshots - 1.jpg'
+// import foodiPhone2 from '../assets/experience_images/foodii/Phone Screenshots - 2.jpg'
+// import foodiPhone3 from '../assets/experience_images/foodii/Phone Screenshots - 3.jpg'
+// import foodiPhone4 from '../assets/experience_images/foodii/Phone Screenshots - 4.jpg'
+// import foodiPhone5 from '../assets/experience_images/foodii/Phone Screenshots - 5.jpg'
+// import foodiPhone6 from '../assets/experience_images/foodii/Phone Screenshots - 6.jpg'
+import foodiCollage1 from '../assets/experience_images/foodii/phone screenshots collage 1.png'
+import foodiCollage2 from '../assets/experience_images/foodii/phone screenshots collage 2.png'
+import foodiWebsite1 from '../assets/experience_images/foodii/Website 1.png'
+import foodiWebsiteGIF from '../assets/experience_images/foodii/Foodii Website GIF.gif'
+import foodiLogo from '../assets/logos/foodii.png'
 
 export const ProjectData = [
+    {
+        id: 'foodii',
+        title: 'Foodii',
+        position: 'Lead Developer',
+        technologies: 'React Native, Expo, Supabase',
+        link: 'https://www.foodii.co.uk',
+        startMonth: 'SEP 2022',
+        endMonth: 'FEB 2023',
+        logoSrc: foodiLogo,
+        bulletPoints: [
+            `Developed a mobile application/website from the ground up in just five months using React, React Native and Firebase/Supabase.
+            As a solo developer, I am responsible for all aspects of the project, including front-end design, back-end development, testing,
+            architecture and more.`,
+            `The app continues to evolve and grow, providing ongoing opportunities for learning and improvement.
+            Through this project, I gained valuable experience with hooks, APIs, npm packages, IOS/Android and other key technologies while
+            honing my design and user experience skills.`,
+            `App currently on hold due to other commitments but will be continued in the future.`
+        ],
+        buttonLinks: [
+            {
+                title: 'Google Play Store',
+                link: 'https://play.google.com/store/apps/details?id=com.sami246.foodi'
+            },
+            {
+                title: 'Apple Store',
+                link: 'https://apps.apple.com/th/app/foodii-restaurant-companion/id6447701868'
+            },
+            {
+                title: 'Website',
+                link: 'https://foodii.co.uk'
+            },
+
+        ],
+        media: [
+            {
+                type: 'image',
+                src: foodigif1,
+                link: 'https://foodii.co.uk',
+                description: ''
+            },
+            {
+                type: 'image',
+                src: foodigif2,
+                link: 'https://foodii.co.uk',
+                description: ''
+            },
+            {
+                type: 'image',
+                src: foodiWebsiteGIF,
+                link: 'https://foodii.co.uk',
+                description: ''
+            },
+            {
+                type: 'image',
+                src: foodiWebsite1,
+                link: 'https://foodii.co.uk',
+                description: ''
+            },
+            {
+                type: 'image',
+                src: foodiCollage1,
+                link: 'https://foodii.co.uk',
+                description: ''
+            },
+            {
+                type: 'image',
+                src: foodiCollage2,
+                link: 'https://foodii.co.uk',
+                description: ''
+            },
+        ]
+    },
     {
         id: 'quick-teams',
         title: 'Quick Teams',

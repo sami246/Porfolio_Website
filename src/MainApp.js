@@ -77,6 +77,17 @@ export const MainApp = () => {
                     <Contact />
                 </div>
             </div>
+            {/* 🚨 NEW: Fixed Call-to-Action Button 🚨 */}
+            <a
+                href="https://apps.srmakes.co.uk"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="fixed-cta-link"
+            >
+                <button className="AppButton fixed-cta-button">
+                    ✨ Check Out My Live Apps ⭐
+                </button>
+            </a>
         </>
     );
 };

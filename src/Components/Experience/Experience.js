@@ -39,7 +39,7 @@ export const Experience = () => {
                             </ul>
                             {item.buttonLinks &&
                                 item.buttonLinks.map((item, index) =>
-                                    <a href={item.link} target="_blank" rel="noreferrer">
+                                    <a key={`button link ${index}`} href={item.link} target="_blank" rel="noreferrer">
                                         <button style={{ margin: '0.3em 0.7em' }} className='AppButton' onClick={() => ""}>
                                             {item.title}
                                         </button>

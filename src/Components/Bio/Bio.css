@@ -10,7 +10,6 @@
 }
 
 
-
 .title {
     color: #ffffff;
     font-weight: 700;
@@ -41,4 +40,74 @@
     background-size: cover;
     margin-bottom: 1rem;
     /* Adjust the margin as needed */
+}
+
+/* ------------------------------------ */
+/* --- NEW: UNIFORM BUTTON STYLES --- */
+/* ------------------------------------ */
+
+.bio-button-stack {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    /* Vertical spacing between buttons */
+    margin-top: 15px;
+    width: 90%;
+    /* Controls the overall width of the stack */
+    max-width: 300px;
+}
+
+.bio-link-wrapper {
+    /* Ensures the anchor tag takes the full width of the stack */
+    width: 100%;
+}
+
+.bio-action-button {
+    /* Base Button Styles for all three */
+    width: 100%;
+    /* Ensures uniformity */
+    padding: 12px 18px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+    /* Center text and icon */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* Default look (secondary/ghost style) */
+    background: transparent;
+    /* Background-color-2 is a dark background color from index.css */
+    border: 2px solid var(--background-color-2);
+    color: var(--color-lightn);
+    /* Light text */
+    /* Applies a soft, dark neumorphic shadow */
+    box-shadow: var(--shadow-1);
+}
+
+/* Primary Button Style (for Download CV) */
+.bio-action-button.primary-button {
+    background: var(--color-primary);
+    border-color: var(--color-primary);
+    color: var(--color-white);
+}
+
+/* Hover effect for all buttons */
+.bio-action-button:hover {
+    transform: translateY(-2px);
+    /* Subtle lift */
+    /* Add a subtle primary color glow/shadow on hover */
+    box-shadow: 0 0 10px rgba(1, 132, 255, 0.5);
+    filter: brightness(1.1);
+}
+
+/* Specific hover effect for secondary buttons */
+.bio-action-button:not(.primary-button):hover {
+    color: var(--color-primary);
+    /* Highlight text on hover */
+    border-color: var(--color-primary);
 }

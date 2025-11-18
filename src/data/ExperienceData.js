@@ -1,21 +1,7 @@
-import foodigif1 from '../assets/experience_images/foodii/foodii gif 1.gif'
-import foodigif2 from '../assets/experience_images/foodii/foodii gif 2.gif'
-// import foodiPhone1 from '../assets/experience_images/foodii/Phone Screenshots - 1.jpg'
-// import foodiPhone2 from '../assets/experience_images/foodii/Phone Screenshots - 2.jpg'
-// import foodiPhone3 from '../assets/experience_images/foodii/Phone Screenshots - 3.jpg'
-// import foodiPhone4 from '../assets/experience_images/foodii/Phone Screenshots - 4.jpg'
-// import foodiPhone5 from '../assets/experience_images/foodii/Phone Screenshots - 5.jpg'
-// import foodiPhone6 from '../assets/experience_images/foodii/Phone Screenshots - 6.jpg'
-import foodiCollage1 from '../assets/experience_images/foodii/phone screenshots collage 1.png'
-import foodiCollage2 from '../assets/experience_images/foodii/phone screenshots collage 2.png'
-import foodiWebsite1 from '../assets/experience_images/foodii/Website 1.png'
-import foodiWebsiteGIF from '../assets/experience_images/foodii/Foodii Website GIF.gif'
+
 import Atiyyah1 from '../assets/experience_images/Atiyyah 1.png'
 import RoyzImage1 from '../assets/project_images/Royz Rental 1.png'
 import LearnfinityImage1 from '../assets/project_images/Learnfinity 1.jpg'
-
-
-import foodiLogo from '../assets/logos/foodii.png'
 
 export const ExperienceData = [
     {
@@ -23,12 +9,17 @@ export const ExperienceData = [
         position: 'Developer',
         technologies: 'Multiple',
         link: '',
-        startMonth: 'May 2023',
-        endMonth: 'CURRENT',
+        startMonth: 'OCT 2022',
+        endMonth: 'NOV 2023',
         logoSrc: 'https://cdn.dribbble.com/userupload/22808646/file/original-cd940b45bbed325d172547e4181e59b2.jpg',
         bulletPoints: [
-            `Working with multiple clients to develop and maintain websites and applications using a variety of technologies.`,
-            `Examples include a website for a perfume e-commerce business with Shopify, a rental platform for a car rental company, and a learning platform for a tutoring company.`,
+            `Industries: Car rentals, education platforms, mobile applications, e-commerce.`,
+            `Developed and maintained projects end-to-end, from initial planning and design to deployment and post-launch support.`,
+            `Built responsive, accessible, and user-friendly interfaces, ensuring seamless experiences across multiple devices`,
+            `Applied best coding practices such as DRY, SOLID, and modular component-based architecture for maintainable and scalable
+             codebases. Ensured high performance and optimised applications for speed, SEO, and accessibility.`,
+            `Integrated third-party services and APIs, including authentication (OAuth, Clerk), real-time databases (Relational & NoSQL), and
+             analytics tools.`,
             `Some non-exhaustive examples are below, and some of these project have further information in the projects section below.`
         ],
         buttonLinks: [
@@ -72,125 +63,24 @@ export const ExperienceData = [
         position: 'Frontend Developer',
         technologies: 'React JS, Tailwind CSS, MongoDB',
         link: 'https://www.linkedin.com/company/virtuale-sem/',
-        startMonth: 'NOV 2024',
+        startMonth: 'NOV 2023',
         endMonth: 'CURRENT',
-        logoSrc: 'https://media.licdn.com/dms/image/v2/D4D0BAQEvv7hosCoNzw/company-logo_200_200/company-logo_200_200/0/1736416614108/virtuale_sem_logo?e=1747872000&v=beta&t=8nqTbgOrML6_t0cre6ucZzndjULk9cXMQyJp1Bf6zSM',
+        logoSrc: 'https://media.licdn.com/dms/image/v2/D4D0BAQEvv7hosCoNzw/company-logo_200_200/company-logo_200_200/0/1736416614108/virtuale_sem_logo?e=1764806400&v=beta&t=RD0Rdy9EEUFey039foHe6xjFHuLYfXzKqK1p4kLX7F0',
         bulletPoints: [
-            `Enhanced User Experience: Designed and implemented front-end architecture decisions that streamlined development, enabling faster feature deployment and improved usability.`,
-            `Feature Development: Built and integrated key features like a notification system for real-time updates and a productivity timer to help employees manage their workflow efficiently.`,
-            `Cross-Team Collaboration: Worked closely with the backend team to ensure seamless feature integration, optimizing performance and enhancing overall platform functionality.`
+            ` Spearheaded the rapid development of a full-featured admin onboarding system in just one week, collaborating with backend
+            engineers and owning the front-end architecture. Delivered a seamless UX with state management, editable/sortable tables, form
+            handling, and API integration — accelerating customer onboarding by several weeks`,
+            ` Designed and integrated a scalable notification system and Pomodoro timer feature in close coordination with the backend team,
+            resulting in a 24% boost in user engagement through timely feedback loops and productivity tools.`,
+            `Partnered with the product team to transform research insights into intuitive, user-driven features, ensuring product direction
+            remained tightly aligned with both user needs and business objectives`,
+            `Modernised and refactored legacy front-end code, seamlessly integrating new features into the existing system while reducing
+            technical debt. Improved load times by 30% through performance tuning, with a strong emphasis on code quality, maintainability, and
+            scalability`
         ],
         media: [
         ]
     },
-    {
-        company: 'Foodii',
-        position: 'Lead Developer',
-        technologies: 'React Native, Expo, Supabase',
-        link: 'https://www.foodii.co.uk',
-        startMonth: 'SEP 2022',
-        endMonth: 'FEB 2023',
-        logoSrc: foodiLogo,
-        bulletPoints: [
-            `Developed a mobile application/website from the ground up in just five months using React, React Native and Firebase/Supabase.
-            As a solo developer, I am responsible for all aspects of the project, including front-end design, back-end development, testing,
-            architecture and more.`,
-            `The app continues to evolve and grow, providing ongoing opportunities for learning and improvement.
-            Through this project, I gained valuable experience with hooks, APIs, npm packages, IOS/Android and other key technologies while
-            honing my design and user experience skills.`,
-            `App currently on hold due to other commitments but will be continued in the future.`
-        ],
-        buttonLinks: [
-            {
-                title: 'Google Play Store',
-                link: 'https://play.google.com/store/apps/details?id=com.sami246.foodi'
-            },
-            {
-                title: 'Apple Store',
-                link: 'https://apps.apple.com/th/app/foodii-restaurant-companion/id6447701868'
-            },
-            {
-                title: 'Website',
-                link: 'https://foodii.co.uk'
-            },
-
-        ],
-        media: [
-            {
-                type: 'image',
-                src: foodigif1,
-                link: 'https://foodii.co.uk',
-                description: ''
-            },
-            {
-                type: 'image',
-                src: foodigif2,
-                link: 'https://foodii.co.uk',
-                description: ''
-            },
-            {
-                type: 'image',
-                src: foodiWebsiteGIF,
-                link: 'https://foodii.co.uk',
-                description: ''
-            },
-            {
-                type: 'image',
-                src: foodiWebsite1,
-                link: 'https://foodii.co.uk',
-                description: ''
-            },
-            {
-                type: 'image',
-                src: foodiCollage1,
-                link: 'https://foodii.co.uk',
-                description: ''
-            },
-            {
-                type: 'image',
-                src: foodiCollage2,
-                link: 'https://foodii.co.uk',
-                description: ''
-            },
-            // {
-            //     type: 'image',
-            //     src: foodiPhone1,
-            //     link: 'https://foodii.co.uk',
-            //     description: ''
-            // },
-            // {
-            //     type: 'image',
-            //     src: foodiPhone2,
-            //     link: 'https://foodii.co.uk',
-            //     description: ''
-            // },
-            // {
-            //     type: 'image',
-            //     src: foodiPhone3,
-            //     link: 'https://foodii.co.uk',
-            //     description: ''
-            // },
-            // {
-            //     type: 'image',
-            //     src: foodiPhone4,
-            //     link: 'https://foodii.co.uk',
-            //     description: ''
-            // },
-            // {
-            //     type: 'image',
-            //     src: foodiPhone5,
-            //     link: 'https://foodii.co.uk',
-            //     description: ''
-            // },
-            // {
-            //     type: 'image',
-            //     src: foodiPhone6,
-            //     link: 'https://foodii.co.uk',
-            //     description: ''
-            // },
-        ]
-    },
-
     {
         company: 'Threepipe Reply',
         position: 'Developer',
@@ -200,11 +90,11 @@ export const ExperienceData = [
         endMonth: 'NOV 2022',
         logoSrc: 'https://media.licdn.com/dms/image/C4E0BAQH-cJHNTuBj_g/company-logo_200_200/0/1630645848269/threepipe_logo?e=2147483647&v=beta&t=CguO2xvyHPTxNAi6hwVW4sduS4P8ZHMXL6CDWLzywtE',
         bulletPoints: [
-            `Built a dynamic Alteryx/Python/SQL automation using data source API, which allowed the company's SEO team to save dozens of
-            hours on manually done tedious tasks while maintaining and improving for the duration of employment. This increased productivity by
-            60% for the SEO team.`,
-            `Built Connectors to Brightroll, Amazon, TikTok and more which allowed the company to transition to using new forms of contemporary
-            marketing data daily via APIs using Python and, took charge of SQL tables which were vital in company reporting`
+            `Spearheaded the development of a dynamic Alteryx/Python/SQL automation leveraging data source APIs, resulting in a 60%
+            increase in productivity for the SEO team, alongside collaboration with many other internal teams for their automations`,
+            ` Leveraged Python and Pandas for efficient data manipulation and analysis, ensuring accurate insights extraction. Developed a
+            comprehensive tool for analysing marketing trends and identifying AD units, streamlining data collection and storage into a
+            centralised spreadsheet from sources such as TikTok, Snapchat and Facebook.`
         ],
         media: [
         ]

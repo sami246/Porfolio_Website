@@ -26,6 +26,8 @@ import googleCloudImage from '../assets/logos/google_cloud.svg'
 import gitHubImage from '../assets/logos/github.png'
 import shopifyImage from '../assets/logos/shopify.png'
 import figmaImage from '../assets/logos/figma.png'
+import typescriptImage from '../assets/logos/typescript.webp'
+import tailwindImage from '../assets/logos/tailwind-css.png'
 
 
 export const main_skills = [
@@ -34,7 +36,16 @@ export const main_skills = [
         description: 'Javascript JS',
         color: 'yellow'
     },
-
+    {
+        logo: typescriptImage,
+        description: 'TypeScript JS',
+        color: 'blue'
+    },
+    {
+        logo: reactNativeImage,
+        description: 'React Native',
+        color: 'blue'
+    },
     {
         logo: htmlImage,
         description: 'HTML 5',
@@ -46,16 +57,10 @@ export const main_skills = [
         color: 'blue'
     },
     {
-        logo: firebaseImage,
-        description: 'Firebase',
-        color: 'yellow'
-    },
-    {
         logo: supabaseImage,
         description: 'Supabase',
         color: 'green'
     },
-
     {
         logo: pythonImage,
         description: 'Python',
@@ -72,15 +77,14 @@ export const main_skills = [
         description: 'Expo',
         color: 'blue'
     },
-    {
-        logo: reactNativeImage,
-        description: 'React Native',
-        color: 'blue'
-    },
-
 ]
 
 export const secondary_skills = [
+    {
+        logo: firebaseImage,
+        description: 'Firebase',
+        color: 'yellow'
+    },
     {
         logo: iosImage,
         description: 'Apple Connect Store'
@@ -97,7 +101,11 @@ export const secondary_skills = [
         logo: gitHubImage,
         description: 'Github'
     },
-
+    {
+        logo: tailwindImage,
+        description: 'Tailwind CSS',
+        color: 'blue'
+    },
     {
         logo: mysqlImage,
         description: 'mySQL'
