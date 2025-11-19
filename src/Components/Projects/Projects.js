@@ -17,7 +17,7 @@ export const Projects = () => {
                                 {item.link
                                     ?
                                     <div className='ExperienceTitle'>
-                                        <a href={item.link} target="_blank" rel="noreferrer">{item.title}</a> | <span>{item.technologies}</span>
+                                        <a key={item.title + '-link'} href={item.link} target="_blank" rel="noreferrer">{item.title}</a> | <span>{item.technologies}</span>
                                     </div>
                                     :
                                     <div className='ExperienceTitle'>{item.title} | <span>{item.technologies}</span></div>
@@ -43,7 +43,7 @@ export const Projects = () => {
                             </div>
                             {item.buttonLinks &&
                                 item.buttonLinks.map((item, index) =>
-                                    <a href={item.link} target="_blank" rel="noreferrer">
+                                    <a key={item.title + '-button-link'} href={item.link} target="_blank" rel="noreferrer">
                                         <button style={{ margin: '8px 15px' }} className='AppButton' onClick={() => ""}>
                                             {item.title}
                                         </button>

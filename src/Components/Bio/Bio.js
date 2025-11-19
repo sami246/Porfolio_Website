@@ -3,8 +3,13 @@ import pdf from '../../assets/Sami Rahman 2025 CV.pdf'
 import { IntroSpinner } from '../SmallComponents/IntroSpinner/IntroSpinner';
 import { Slide } from 'react-awesome-reveal';
 import { FaDownload, FaUser, FaGithub } from 'react-icons/fa';
+import { useContext } from 'react';
+import { AppContext } from '../../contexts/AppContext';
 
 export const Bio = () => {
+
+    const { showContactPopup, setShowContactPopup } = useContext(AppContext);
+
 
     const onButtonClick = () => {
         // NOTE: window.confirm() should ideally be replaced with a custom modal in a React app.
@@ -26,10 +31,14 @@ export const Bio = () => {
         }
     };
 
-    const scrollToAboutMe = () => {
-        const aboutMeSection = document.getElementById("AboutMe");
-        aboutMeSection.scrollIntoView({ behavior: "smooth" });
-    };
+    // const scrollToAboutMe = () => {
+    //     const aboutMeSection = document.getElementById("AboutMe");
+    //     aboutMeSection.scrollIntoView({ behavior: "smooth" });
+    // };
+
+    const openContactModal = () => {
+        setShowContactPopup(true);
+    }
 
     return (
         <Slide direction='left' duration={1800} triggerOnce>
@@ -48,9 +57,9 @@ export const Bio = () => {
                     </button>
 
                     {/* Secondary Button Style */}
-                    <button className="bio-action-button" onClick={scrollToAboutMe}>
+                    <button className="bio-action-button" onClick={openContactModal}>
                         <FaUser style={{ marginRight: '8px' }} />
-                        About Me
+                        Contact Me
                     </button>
 
                     <a

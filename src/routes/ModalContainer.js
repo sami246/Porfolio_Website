@@ -1,19 +1,21 @@
-import React from 'react'
+import React, { useContext } from 'react'
 // import Footer from '../Components/Footer/Footer'
 import RouteHandler from './index'
 import HomeButton from '../Components/SmallComponents/HomeButton/HomeButton'
+import ContactModal from '../Components/Modals/ContactModal'
+import { AppContext } from '../contexts/AppContext'
+import InitialModal from '../Components/Modals/InitialModal'
 
 
 
 function ModalContainer() {
-    // const { showPopup, setShowPopup, showCarDetails, setShowCarDetails, showBookNow, setShowBookNow } = useContext(AppContext)
+    const { showInitialPopup, setShowInitialPopup, showContactPopup, setShowContactPopup, } = useContext(AppContext)
 
     return (
         <div className='FullScreen'>
             {/* --------- ALL MODALS ----------- */}
-            {/* <ContactModal isOpen={showPopup} setIsOpen={setShowPopup} />
-            <CarDetailsModal isOpen={showCarDetails} setIsOpen={setShowCarDetails} />
-            <BookNowModal isOpen={showBookNow} setIsOpen={setShowBookNow} /> */}
+            <ContactModal isOpen={showContactPopup} setIsOpen={setShowContactPopup} />
+            <InitialModal isOpen={showInitialPopup} setIsOpen={setShowInitialPopup} />
             {/* -------------------------------- */}
             <RouteHandler />
             {/* <Footer /> */}
