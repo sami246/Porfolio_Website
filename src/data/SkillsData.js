@@ -32,28 +32,18 @@ import tailwindImage from '../assets/logos/tailwind-css.png'
 
 export const main_skills = [
     {
-        logo: javascriptImage,
-        description: 'Javascript JS',
-        color: 'yellow'
-    },
-    {
         logo: typescriptImage,
         description: 'TypeScript JS',
         color: 'blue'
     },
     {
+        logo: javascriptImage,
+        description: 'Javascript JS',
+        color: 'yellow'
+    },
+    {
         logo: reactNativeImage,
         description: 'React Native',
-        color: 'blue'
-    },
-    {
-        logo: htmlImage,
-        description: 'HTML 5',
-        color: 'orange'
-    },
-    {
-        logo: reactImage,
-        description: 'React JS',
         color: 'blue'
     },
     {
@@ -67,23 +57,35 @@ export const main_skills = [
         color: 'yellow'
     },
     {
+        logo: expoImage,
+        description: 'Expo',
+        color: 'blue'
+    },
+    {
+        logo: reactImage,
+        description: 'React JS',
+        color: 'blue'
+    },
+
+]
+
+export const secondary_skills = [
+
+    {
         logo: css3Image,
         description: 'CSS 3',
         color: 'blue'
 
     },
     {
-        logo: expoImage,
-        description: 'Expo',
-        color: 'blue'
-    },
-]
-
-export const secondary_skills = [
-    {
         logo: firebaseImage,
         description: 'Firebase',
         color: 'yellow'
+    },
+    {
+        logo: htmlImage,
+        description: 'HTML 5',
+        color: 'orange'
     },
     {
         logo: iosImage,

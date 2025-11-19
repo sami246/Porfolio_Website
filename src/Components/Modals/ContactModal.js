@@ -1,11 +1,9 @@
 import { AnimatePresence, motion } from "framer-motion";
-import { useState } from "react";
 import { MdContactPhone } from "react-icons/md";
 import { IoIosMail } from "react-icons/io";
 import { CopyToClipboard } from 'react-copy-to-clipboard';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import { FaPhone } from "react-icons/fa6";
 import "./ContactModal.css";
 
 

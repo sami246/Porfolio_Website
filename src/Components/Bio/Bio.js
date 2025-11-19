@@ -8,11 +8,10 @@ import { AppContext } from '../../contexts/AppContext';
 
 export const Bio = () => {
 
-    const { showContactPopup, setShowContactPopup } = useContext(AppContext);
+    const { setShowContactPopup } = useContext(AppContext);
 
 
     const onButtonClick = () => {
-        // NOTE: window.confirm() should ideally be replaced with a custom modal in a React app.
         const shouldDownload = window.confirm('Do you want to download the CV?');
 
         if (shouldDownload) {
