@@ -16,11 +16,11 @@ import TravelAdvisorImage1 from '../assets/project_images/Travel Advisor 1.png'
 import RecipeFinderImage1 from '../assets/project_images/Recipe Finder 1.png'
 import RecipeFinderImage2 from '../assets/project_images/Recipe Finder 2.png'
 import RecipeFinderImage3 from '../assets/project_images/Recipe Finder 3.png'
-import FamilyNoticeImage1 from '../assets/project_images/Family Notice 1.png'
-import FamilyNoticeImage2 from '../assets/project_images/Family Notice 2.png'
-import FamilyNoticeImage3 from '../assets/project_images/Family Notice 3.png'
-import FamilyNoticeImage4 from '../assets/project_images/Family Notice 4.png'
-import FamilyNoticeImage5 from '../assets/project_images/Family Notice 5.png'
+// import FamilyNoticeImage1 from '../assets/project_images/Family Notice 1.png'
+// import FamilyNoticeImage2 from '../assets/project_images/Family Notice 2.png'
+// import FamilyNoticeImage3 from '../assets/project_images/Family Notice 3.png'
+// import FamilyNoticeImage4 from '../assets/project_images/Family Notice 4.png'
+// import FamilyNoticeImage5 from '../assets/project_images/Family Notice 5.png'
 import AwdaImage1 from '../assets/project_images/Awda 1.png'
 import QuickTeamsImage1 from '../assets/project_images/Quick Teams 1.jpg'
 import QuickTeamsImage2 from '../assets/project_images/Quick Teams 2.jpg'
@@ -287,7 +287,7 @@ export const ProjectData = [
         startMonth: 'MAY 2024',
         endMonth: 'JUNE 2024',
         bulletPoints: [
-            'Freelance project to build a website for a computer science mentoring/bootcamp business. The idea was to have a clean, professional design that would attract students and parents alike. While showing all of the main features of the business such as the courses, tutors, testimonials and contact information.',
+            'Freelance project to build a website for a computer science mentoring/boot camp business. The idea was to have a clean, professional design that would attract students and parents alike. While showing all of the main features of the business such as the courses, tutors, testimonials and contact information.',
             'Fully responsive, using modern UI and features such as toasts, blur background, carousels e.t.c.',
             'There have been many changes to the website since the initial build, such as adding a blog, more courses, and a more interactive design.'
         ],
@@ -326,7 +326,7 @@ export const ProjectData = [
         startMonth: 'AUG 2022',
         endMonth: 'SEP 2022',
         bulletPoints: [
-            'Built and deployed a React Admin Dashboard App With Theming, Tables, Charts, Calendar, Kanban and many more features using the syncfusion library as well as tailwind CSS as the main building blocks.',
+            'Built and deployed a React Admin Dashboard App With Theming, Tables, Charts, Calendar, Kanban and many more features using the Syncfusion library as well as Tailwind CSS as the main building blocks.',
             'The project also used React Context API, was completely responsive, and had dark and light themes, using modern UI and folder structure practices.'
         ],
         buttonLinks: [
@@ -430,7 +430,7 @@ export const ProjectData = [
     {
         id: 'auction-website',
         title: 'Auction Website (eBay Clone)',
-        technologies: 'Django, HTML, Ajax, CSS, Postgress',
+        technologies: 'Django, HTML, Ajax, CSS, Postgresql',
         link: null,
         startMonth: 'SEPT 2019',
         endMonth: 'DEC 2019',

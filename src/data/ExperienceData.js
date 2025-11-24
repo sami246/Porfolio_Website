@@ -2,6 +2,8 @@
 import Atiyyah1 from '../assets/experience_images/Atiyyah 1.png'
 import RoyzImage1 from '../assets/project_images/Royz Rental 1.png'
 import LearnfinityImage1 from '../assets/project_images/Learnfinity 1.jpg'
+// import SimplySENImage1 from '../assets/experience_images/Simply Sen 1.png'
+import SimplySENImage2 from '../assets/experience_images/Simply Sen 2.png'
 
 export const ExperienceData = [
     {
@@ -63,6 +65,12 @@ export const ExperienceData = [
         media: [
             {
                 type: 'image',
+                src: SimplySENImage2,
+                // link: 'https://www.simplysen.co.uk/',
+                description: 'Simply SEN Website'
+            },
+            {
+                type: 'image',
                 src: Atiyyah1,
                 link: 'https://www.atiyyah.co.uk/',
                 description: 'Atiyyah Website'
@@ -78,7 +86,8 @@ export const ExperienceData = [
                 src: LearnfinityImage1,
                 link: 'https://www.learnfinity.co.uk/',
                 description: 'Learnfinity Website'
-            }
+            },
+
         ]
     },
 
