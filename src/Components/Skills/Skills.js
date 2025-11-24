@@ -2,10 +2,13 @@ import React from 'react';
 import './Skills.css'
 import { main_skills, secondary_skills } from '../../data/SkillsData';
 import { Slide } from 'react-awesome-reveal';
+import { useIsStackedLayout } from '../../hooks/useIsStackedLayout';
 
 export const Skills = () => {
+    const isStacked = useIsStackedLayout();
+    const slideDirection = isStacked ? 'left' : 'right';
     return (
-        <Slide direction='right' duration={1800} triggerOnce>
+        <Slide direction={slideDirection} duration={1800} triggerOnce>
             <div id='boxContainer'>
                 <header className='boxHeading'>Skills</header>
                 <h4>Primary Skills</h4>
