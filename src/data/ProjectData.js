@@ -49,7 +49,7 @@ export const ProjectData = [
     {
         id: 'apps-portal',
         title: 'SRMakes Apps Portal & Validator',
-        technologies: 'React, Supabase, Tailwind CSS, TypeScript, TanStack Query',
+        technologies: 'React, Supabase, Tailwind CSS, JavaScript, TanStack Query',
         link: 'https://apps.srmakes.co.uk',
         startMonth: 'NOV 2024',
         endMonth: 'PRESENT',
