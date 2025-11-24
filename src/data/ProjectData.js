@@ -37,11 +37,12 @@ import foodiCollage2 from '../assets/experience_images/foodii/phone screenshots 
 import foodiWebsite1 from '../assets/experience_images/foodii/Website 1.png'
 import foodiWebsiteGIF from '../assets/experience_images/foodii/Foodii Website GIF.gif'
 import foodiLogo from '../assets/logos/foodii.png'
-import SRMLogo from '../assets/SRMakes Logo.png'
+// import SRMLogo from '../assets/SRMakes Logo.png'
 import SRMakesImage1 from '../assets/project_images/SRMakes Apps 1.webp'
 import SRMakesImage2 from '../assets/project_images/SRMakes Apps 2.webp'
 import SRMakesImage3 from '../assets/project_images/SRMakes Apps 3.webp'
 import SRMakesImage4 from '../assets/project_images/SRMakes Apps 4.webp'
+import SRMakesImage5 from '../assets/project_images/SRMakes Apps 5.webp'
 
 
 export const ProjectData = [
@@ -89,6 +90,12 @@ export const ProjectData = [
                 src: SRMakesImage4,
                 link: 'https://apps.srmakes.co.uk/projects/awda',
                 description: 'Main wait-list for under-development projects to gather user interest'
+            },
+            {
+                type: 'image',
+                src: SRMakesImage5,
+                link: 'https://apps.srmakes.co.uk/projects/awda',
+                description: 'Light Mode Theming with Dynamic Colors'
             },
         ]
     },
