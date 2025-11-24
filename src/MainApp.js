@@ -10,7 +10,7 @@ import { AppContext } from './contexts/AppContext';
 import { HiChevronLeft, HiChevronRight } from "react-icons/hi";
 
 export const MainApp = () => {
-    const { imageToShowData, imageToShowIndex, setImageToShowData, setImageToShowIndex } = useContext(AppContext);
+    const { imageToShowData, imageToShowIndex, setImageToShowData, setImageToShowIndex, showInitialPopup } = useContext(AppContext);
 
     const handleCloseModal = (e) => {
         // Check if the click target is the background (modal) and not the image
@@ -77,17 +77,18 @@ export const MainApp = () => {
                     <Contact />
                 </div>
             </div>
-            {/* 🚨 NEW: Fixed Call-to-Action Button 🚨 */}
-            <a
-                href="https://apps.srmakes.co.uk"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="fixed-cta-link"
-            >
-                <button className="AppButton fixed-cta-button">
-                    ✨ Check Out My Live Apps ⭐
-                </button>
-            </a>
+            {!showInitialPopup &&
+                <a
+                    href="https://apps.srmakes.co.uk"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="fixed-cta-link"
+                >
+                    <button className="AppButton fixed-cta-button">
+                        ✨ Check Out My Live Apps ⭐
+                    </button>
+                </a>
+            }
         </>
     );
 };
