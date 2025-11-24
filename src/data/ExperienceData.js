@@ -5,6 +5,29 @@ import LearnfinityImage1 from '../assets/project_images/Learnfinity 1.jpg'
 
 export const ExperienceData = [
     {
+        company: 'VirtualE',
+        position: 'Frontend Developer',
+        technologies: 'React JS, Tailwind CSS, MongoDB',
+        link: 'https://www.linkedin.com/company/virtuale-sem/',
+        startMonth: 'NOV 2023',
+        endMonth: 'CURRENT',
+        logoSrc: 'https://media.licdn.com/dms/image/v2/D4D0BAQEvv7hosCoNzw/company-logo_200_200/company-logo_200_200/0/1736416614108/virtuale_sem_logo?e=1764806400&v=beta&t=RD0Rdy9EEUFey039foHe6xjFHuLYfXzKqK1p4kLX7F0',
+        bulletPoints: [
+            ` Spearheaded the rapid development of a full-featured admin onboarding system in just one week, collaborating with backend
+            engineers and owning the front-end architecture. Delivered a seamless UX with state management, editable/sortable tables, form
+            handling, and API integration — accelerating customer onboarding by several weeks`,
+            ` Designed and integrated a scalable notification system and Pomodoro timer feature in close coordination with the backend team,
+            resulting in a 24% boost in user engagement through timely feedback loops and productivity tools.`,
+            `Partnered with the product team to transform research insights into intuitive, user-driven features, ensuring product direction
+            remained tightly aligned with both user needs and business objectives`,
+            `Modernised and refactored legacy front-end code, seamlessly integrating new features into the existing system while reducing
+            technical debt. Improved load times by 30% through performance tuning, with a strong emphasis on code quality, maintainability, and
+            scalability`
+        ],
+        media: [
+        ]
+    },
+    {
         company: 'Freelance',
         position: 'Developer',
         technologies: 'Multiple',
@@ -58,29 +81,7 @@ export const ExperienceData = [
             }
         ]
     },
-    {
-        company: 'VirtualE',
-        position: 'Frontend Developer',
-        technologies: 'React JS, Tailwind CSS, MongoDB',
-        link: 'https://www.linkedin.com/company/virtuale-sem/',
-        startMonth: 'NOV 2023',
-        endMonth: 'CURRENT',
-        logoSrc: 'https://media.licdn.com/dms/image/v2/D4D0BAQEvv7hosCoNzw/company-logo_200_200/company-logo_200_200/0/1736416614108/virtuale_sem_logo?e=1764806400&v=beta&t=RD0Rdy9EEUFey039foHe6xjFHuLYfXzKqK1p4kLX7F0',
-        bulletPoints: [
-            ` Spearheaded the rapid development of a full-featured admin onboarding system in just one week, collaborating with backend
-            engineers and owning the front-end architecture. Delivered a seamless UX with state management, editable/sortable tables, form
-            handling, and API integration — accelerating customer onboarding by several weeks`,
-            ` Designed and integrated a scalable notification system and Pomodoro timer feature in close coordination with the backend team,
-            resulting in a 24% boost in user engagement through timely feedback loops and productivity tools.`,
-            `Partnered with the product team to transform research insights into intuitive, user-driven features, ensuring product direction
-            remained tightly aligned with both user needs and business objectives`,
-            `Modernised and refactored legacy front-end code, seamlessly integrating new features into the existing system while reducing
-            technical debt. Improved load times by 30% through performance tuning, with a strong emphasis on code quality, maintainability, and
-            scalability`
-        ],
-        media: [
-        ]
-    },
+
     {
         company: 'Threepipe Reply',
         position: 'Developer',

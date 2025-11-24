@@ -37,8 +37,61 @@ import foodiCollage2 from '../assets/experience_images/foodii/phone screenshots 
 import foodiWebsite1 from '../assets/experience_images/foodii/Website 1.png'
 import foodiWebsiteGIF from '../assets/experience_images/foodii/Foodii Website GIF.gif'
 import foodiLogo from '../assets/logos/foodii.png'
+import SRMLogo from '../assets/SRMakes Logo.png'
+import SRMakesImage1 from '../assets/project_images/SRMakes Apps 1.webp'
+import SRMakesImage2 from '../assets/project_images/SRMakes Apps 2.webp'
+import SRMakesImage3 from '../assets/project_images/SRMakes Apps 3.webp'
+import SRMakesImage4 from '../assets/project_images/SRMakes Apps 4.webp'
+
 
 export const ProjectData = [
+    {
+        id: 'apps-portal',
+        title: 'SRMakes Apps Portal & Validator',
+        technologies: 'React, Supabase, Tailwind CSS, TypeScript, TanStack Query',
+        link: 'https://apps.srmakes.co.uk',
+        startMonth: 'NOV 2024',
+        endMonth: 'PRESENT',
+        bulletPoints: [
+            'Architected a "Startup Validator" platform designed to test market viability for new concepts (MVPs) alongside live apps. The system captures user interest via wait-lists to validate product ideas before full development.',
+            'Engineered a Server-Driven UI architecture: The entire landing page layout (Hero, Features, Problem/Solution) is stored as structured JSONB in Supabase. This allows the frontend to dynamically render different component stacks for each project without code changes.',
+            'Optimized Data Layer: Implemented TanStack Query (React Query) for aggressive caching and optimistic UI updates, ensuring instant feedback when users sign up or vote on features, minimizing database costs.',
+            'Advanced Backend Logic: utilized Supabase RPCs (Remote Procedure Calls) to handle atomic transactions for wait-list logic and secure row-level security (RLS) policies to protect user data.',
+            'Dynamic Theming Engine: Solved complex styling challenges using a Tailwind "Safelist" strategy to inject project-specific color identities (primary/secondary themes) at runtime, giving every concept its own unique brand feel.'
+        ],
+        buttonLinks: [
+            {
+                title: 'Website',
+                link: 'https://apps.srmakes.co.uk'
+            }
+        ],
+        media: [
+            {
+                type: 'image',
+                src: SRMakesImage1,
+                link: 'https://apps.srmakes.co.uk',
+                description: 'Project Showcase Dashboard'
+            },
+            {
+                type: 'image',
+                src: SRMakesImage2,
+                link: 'https://apps.srmakes.co.uk/projects/awda',
+                description: 'Dynamic Project Hero, Timeline and Problem/Solution Sections'
+            },
+            {
+                type: 'image',
+                src: SRMakesImage3,
+                link: 'https://apps.srmakes.co.uk/projects/awda',
+                description: 'Dynamic Project Potential Features List'
+            },
+            {
+                type: 'image',
+                src: SRMakesImage4,
+                link: 'https://apps.srmakes.co.uk/projects/awda',
+                description: 'Main wait-list for under-development projects to gather user interest'
+            },
+        ]
+    },
     {
         id: 'foodii',
         title: 'Foodii',

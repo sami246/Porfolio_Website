@@ -9,7 +9,7 @@ export const Projects = () => {
     return (
         <Slide direction='right' duration={1800} triggerOnce>
             <div id='boxContainer'>
-                <header className='boxHeading'>Projects</header>
+                <header className='boxHeading'>Projects + Live Apps</header>
                 <div className='boxText'>
                     {ProjectData.map((item, index) => (
                         <div key={index + 'projects'}>
