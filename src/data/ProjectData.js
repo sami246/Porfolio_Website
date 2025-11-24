@@ -377,36 +377,36 @@ export const ProjectData = [
             'Definitively not the best in terms of design but we all have to start somewhere 😅 (focus was more on the functionality)'
         ],
         media: [
-            {
-                type: 'image',
-                src: FamilyNoticeImage1,
-                link: 'https://github.com/sami246/FamilyNotice',
-                description: ''
-            },
-            {
-                type: 'image',
-                src: FamilyNoticeImage2,
-                link: 'https://github.com/sami246/FamilyNotice',
-                description: ''
-            },
-            {
-                type: 'image',
-                src: FamilyNoticeImage3,
-                link: 'https://github.com/sami246/FamilyNotice',
-                description: ''
-            },
-            {
-                type: 'image',
-                src: FamilyNoticeImage4,
-                link: 'https://github.com/sami246/FamilyNotice',
-                description: ''
-            },
-            {
-                type: 'image',
-                src: FamilyNoticeImage5,
-                link: 'https://github.com/sami246/FamilyNotice',
-                description: ''
-            },
+            // {
+            //     type: 'image',
+            //     src: FamilyNoticeImage1,
+            //     link: 'https://github.com/sami246/FamilyNotice',
+            //     description: ''
+            // },
+            // {
+            //     type: 'image',
+            //     src: FamilyNoticeImage2,
+            //     link: 'https://github.com/sami246/FamilyNotice',
+            //     description: ''
+            // },
+            // {
+            //     type: 'image',
+            //     src: FamilyNoticeImage3,
+            //     link: 'https://github.com/sami246/FamilyNotice',
+            //     description: ''
+            // },
+            // {
+            //     type: 'image',
+            //     src: FamilyNoticeImage4,
+            //     link: 'https://github.com/sami246/FamilyNotice',
+            //     description: ''
+            // },
+            // {
+            //     type: 'image',
+            //     src: FamilyNoticeImage5,
+            //     link: 'https://github.com/sami246/FamilyNotice',
+            //     description: ''
+            // },
         ]
     },
     {
