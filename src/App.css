@@ -234,14 +234,14 @@ a:hover {
   color: var(--color-white) !important;
   font-weight: 700 !important;
   padding: 12px 18px !important;
-  box-shadow: 0 0 15px rgba(1, 132, 255, 0.9), 0 0 30px rgba(1, 132, 255, 0.6) !important;
+  box-shadow: 0 0 10px rgba(1, 132, 255, 0.9), 0 0 20px rgba(1, 132, 255, 0.6) !important;
   white-space: nowrap;
   transition: all 0.3s ease-in-out;
   text-wrap: balance;
 }
 
 .fixed-cta-button:hover {
-  box-shadow: 0 0 25px rgba(1, 132, 255, 1), 0 0 50px rgba(1, 132, 255, 0.8) !important;
+  box-shadow: 0 0 20px rgba(1, 132, 255, 1), 0 0 40px rgba(1, 132, 255, 0.8) !important;
   transform: scale(1.05);
   filter: brightness(1.1);
   animation: none;

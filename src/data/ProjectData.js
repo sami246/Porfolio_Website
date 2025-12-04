@@ -52,7 +52,7 @@ export const ProjectData = [
         technologies: 'React, Supabase, Tailwind CSS, JavaScript, TanStack Query',
         link: 'https://apps.srmakes.co.uk',
         startMonth: 'NOV 2024',
-        endMonth: 'PRESENT',
+        endMonth: 'CURRENT',
         bulletPoints: [
             'Architected a "Startup Validator" platform designed to test market viability for new concepts (MVPs) alongside live apps. The system captures user interest via wait-lists to validate product ideas before full development.',
             'Engineered a Server-Driven UI architecture: The entire landing page layout (Hero, Features, Problem/Solution) is stored as structured JSONB in Supabase. This allows the frontend to dynamically render different component stacks for each project without code changes.',
@@ -97,6 +97,48 @@ export const ProjectData = [
                 link: 'https://apps.srmakes.co.uk/projects/awda',
                 description: 'Light Mode Theming with Dynamic Colors'
             },
+        ]
+    },
+    {
+        id: 'quick-teams',
+        title: 'Quick Teams',
+        technologies: 'React Native, Expo, TypeScript, Supabase, Amplitude, Sentry',
+        link: null,
+        startMonth: 'NOV 2024',
+        endMonth: 'JAN 2025',
+        bulletPoints: [
+            "Developed a highly efficient, custom algorithm to generate fair, skill-balanced teams instantly from dynamic player inputs.",
+            "Utilized Supabase as the cloud backend for scalable data persistence, mainly for version control & keeping users with up to date versions, with idea to implement online data in the future",
+            "Integrated Sentry for real-time error tracking and crash monitoring, ensuring high application stability and rapid response to production issues.",
+            "Implemented Amplitude analytics to measure key user journeys and feature adoption, enabling data-driven decisions for future product development.",
+            "Managed the full build and release cycle using Expo EAS, including continuous deployment and seamless over-the-air (OTA) updates.",
+            "Enforced application integrity and maintainability using TypeScript across the entire codebase.",
+            "Used the newer version of Expo Route-based Navigation which is the new industry standard"
+        ],
+        buttonLinks: [
+            {
+                title: 'Google Play Store',
+                link: 'https://play.google.com/store/apps/details?id=com.SRMakes.QuickTeams&gl=UK'
+            },
+            {
+                title: 'App Store',
+                link: 'https://apps.apple.com/us/app/quick-teams-team-generator/id6740728374'
+            }
+        ],
+        media: [
+            {
+                type: 'image',
+                src: QuickTeamsImage1,
+                description: '',
+                link: ''
+            },
+            {
+                type: 'image',
+                src: QuickTeamsImage2,
+                description: '',
+                link: ''
+            }
+
         ]
     },
     {
@@ -172,51 +214,12 @@ export const ProjectData = [
         ]
     },
     {
-        id: 'quick-teams',
-        title: 'Quick Teams',
-        technologies: 'React Native, Expo, Figma',
-        link: null,
-        startMonth: 'NOV 2024',
-        endMonth: 'JAN 2025',
-        bulletPoints: [
-            'Effortless Team Generation: Built a fast and intuitive mobile app for quickly creating balanced sports teams, streamlining the team-picking process.',
-            'Modern Navigation & Type Safety: Used Expo Router for seamless navigation and TypeScript for a robust, maintainable codebase.',
-            'Offline-First Performance: Designed the app with offline-first standards, ensuring a smooth user experience even without an internet connection.',
-            'Optimized UI & Monetization: Created a clean, user-friendly interface with persistent sorting options for player lists while integrating Google AdMob for passive revenue.'
-        ],
-        buttonLinks: [
-            {
-                title: 'Google Play Store',
-                link: 'https://play.google.com/store/apps/details?id=com.SRMakes.QuickTeams&gl=UK'
-            },
-            {
-                title: 'App Store',
-                link: 'https://apps.apple.com/us/app/quick-teams-team-generator/id6740728374'
-            }
-        ],
-        media: [
-            {
-                type: 'image',
-                src: QuickTeamsImage1,
-                description: '',
-                link: ''
-            },
-            {
-                type: 'image',
-                src: QuickTeamsImage2,
-                description: '',
-                link: ''
-            }
-
-        ]
-    },
-    {
         id: 'awda',
         title: 'Awda',
-        technologies: 'React Native, Expo, Supabase, Figma',
+        technologies: 'React Native, Expo, Supabase, Typescript, Sentry, Amplitude',
         link: null,
         startMonth: 'DEC 2023',
-        endMonth: 'FEB 2024',
+        endMonth: 'CURRENT',
         bulletPoints: [
             'Multi-platform Mobile Application to help Muslim Reverts learn the basics of Islam all in one place',
             'Main Focus of this was front end implementation working with other developers to create the whole application.',

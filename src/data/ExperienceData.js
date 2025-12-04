@@ -4,6 +4,7 @@ import RoyzImage1 from '../assets/project_images/Royz Rental 1.png'
 import LearnfinityImage1 from '../assets/project_images/Learnfinity 1.jpg'
 // import SimplySENImage1 from '../assets/experience_images/Simply Sen 1.png'
 import SimplySENImage2 from '../assets/experience_images/Simply Sen 2.png'
+import VirtualE from '../assets/experience_images/virtuale_sem_logo.jpeg'
 
 export const ExperienceData = [
     {
@@ -13,7 +14,7 @@ export const ExperienceData = [
         link: 'https://www.linkedin.com/company/virtuale-sem/',
         startMonth: 'NOV 2023',
         endMonth: 'CURRENT',
-        logoSrc: 'https://media.licdn.com/dms/image/v2/D4D0BAQEvv7hosCoNzw/company-logo_200_200/company-logo_200_200/0/1736416614108/virtuale_sem_logo?e=1764806400&v=beta&t=RD0Rdy9EEUFey039foHe6xjFHuLYfXzKqK1p4kLX7F0',
+        logoSrc: VirtualE,
         bulletPoints: [
             ` Spearheaded the rapid development of a full-featured admin onboarding system in just one week, collaborating with backend
             engineers and owning the front-end architecture. Delivered a seamless UX with state management, editable/sortable tables, form

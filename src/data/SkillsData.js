@@ -28,6 +28,8 @@ import shopifyImage from '../assets/logos/shopify.png'
 import figmaImage from '../assets/logos/figma.png'
 import typescriptImage from '../assets/logos/typescript.webp'
 import tailwindImage from '../assets/logos/tailwind-css.png'
+import amplitudeImage from '../assets/logos/amplitude.png'
+import sentryImage from '../assets/logos/sentry.png'
 
 
 export const main_skills = [
@@ -161,4 +163,12 @@ export const secondary_skills = [
         logo: figmaImage,
         description: 'Figma'
     },
+    {
+        logo: sentryImage,
+        description: 'Sentry'
+    },
+    {
+        logo: amplitudeImage,
+        description: 'Amplitude'
+    }
 ]
