@@ -49,16 +49,16 @@ export const ExperienceData = [
         ],
         buttonLinks: [
             {
-                title: 'Atiyyah',
-                link: 'https://www.atiyyah.co.uk/'
+                title: 'Simply SEN',
+                link: 'https://www.simplysentuition.co.uk/'
             },
             {
                 title: 'Royz Rental',
                 link: 'https://www.royzrental.com/'
             },
             {
-                title: 'Learnfinity',
-                link: 'https://foodii.co.uk'
+                title: 'Atiyyah',
+                link: 'https://www.atiyyah.co.uk/'
             },
 
         ],
