@@ -2,8 +2,7 @@
 import Atiyyah1 from '../assets/experience_images/Atiyyah 1.png'
 import RoyzImage1 from '../assets/project_images/Royz Rental 1.png'
 import LearnfinityImage1 from '../assets/project_images/Learnfinity 1.jpg'
-// import SimplySENImage1 from '../assets/experience_images/Simply Sen 1.png'
-import SimplySENImage2 from '../assets/experience_images/Simply Sen 2.png'
+import SimplySENImage1 from '../assets/project_images/SEN Tuition 1.png'
 import VirtualE from '../assets/experience_images/virtuale_sem_logo.jpeg'
 
 export const ExperienceData = [
@@ -66,7 +65,13 @@ export const ExperienceData = [
         media: [
             {
                 type: 'image',
-                src: SimplySENImage2,
+                src: RoyzImage1,
+                link: 'https://www.royzrental.com/',
+                description: 'Royz Rental Website'
+            },
+            {
+                type: 'image',
+                src: SimplySENImage1,
                 // link: 'https://www.simplysen.co.uk/',
                 description: 'Simply SEN Website'
             },
@@ -76,19 +81,12 @@ export const ExperienceData = [
                 link: 'https://www.atiyyah.co.uk/',
                 description: 'Atiyyah Website'
             },
-            {
-                type: 'image',
-                src: RoyzImage1,
-                link: 'https://www.royzrental.com/',
-                description: 'Royz Rental Website'
-            },
-            {
-                type: 'image',
-                src: LearnfinityImage1,
-                link: 'https://www.learnfinity.co.uk/',
-                description: 'Learnfinity Website'
-            },
-
+            // {
+            //     type: 'image',
+            //     src: LearnfinityImage1,
+            //     link: 'https://www.learnfinity.co.uk/',
+            //     description: 'Learnfinity Website'
+            // },
         ]
     },
 

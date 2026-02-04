@@ -43,6 +43,9 @@ import SRMakesImage2 from '../assets/project_images/SRMakes Apps 2.webp'
 import SRMakesImage3 from '../assets/project_images/SRMakes Apps 3.webp'
 import SRMakesImage4 from '../assets/project_images/SRMakes Apps 4.webp'
 import SRMakesImage5 from '../assets/project_images/SRMakes Apps 5.webp'
+import SENTuitionImage1 from '../assets/project_images/SEN Tuition 1.png'
+import SENTuitionImage2 from '../assets/project_images/SEN Tuition 2.png'
+import SENTuitionImage3 from '../assets/project_images/SEN Tuition 3.png'
 
 
 export const ProjectData = [
@@ -139,6 +142,47 @@ export const ProjectData = [
                 link: ''
             }
 
+        ]
+    },
+    {
+        id: 'simply-sen',
+        title: 'Simply SEN Tuition Website',
+        technologies: 'React JS, Vercel, JavaScript, Tailwind CSS',
+        link: 'https://www.simplysentuition.co.uk/',
+        startMonth: 'NOV 2025',
+        endMonth: 'DEC 2025',
+        bulletPoints: [
+            'Developed a modern, responsive website for Simply SEN Tuition, an educational service specializing in support for students with special educational needs.',
+            'Utilized React JS and Tailwind CSS to create a visually appealing and user-friendly interface that effectively communicates the company\'s services and values.',
+            'Implemented SEO best practices to enhance online visibility and attract potential clients searching for specialized tuition services.',
+            'Deployed the website on Vercel for optimal performance, scalability, and ease of maintenance.',
+            'Collaborated closely with the client to ensure the website met their specific requirements and branding guidelines.'
+        ],
+        buttonLinks: [
+            {
+                title: 'Visit the Website',
+                link: 'https://www.simplysentuition.co.uk/'
+            },
+        ],
+        media: [
+            {
+                type: 'image',
+                src: SENTuitionImage1,
+                link: 'https://www.simplysentuition.co.uk/',
+                description: 'Simply SEN Tuition Website - Main Page'
+            },
+            {
+                type: 'image',
+                src: SENTuitionImage2,
+                link: 'https://www.simplysentuition.co.uk/',
+                description: 'Simply SEN Tuition Website - Main Page Continued'
+            },
+            {
+                type: 'image',
+                src: SENTuitionImage3,
+                link: 'https://www.simplysentuition.co.uk/',
+                description: 'Simply SEN Tuition Website - Contact Page'
+            },
         ]
     },
     {
