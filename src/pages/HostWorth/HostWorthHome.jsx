@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FaGooglePlay, FaAppStore } from 'react-icons/fa';
+// import { FaGooglePlay, FaAppStore } from 'react-icons/fa';
 import logo from '../../assets/project_images/Host Worth Logo.png';
 
 const HostWorthHome = () => {
